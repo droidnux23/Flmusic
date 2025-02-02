@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components.themed
+package com.abhiram79.flowtune.ui.components.themed
 
 import androidx.annotation.DrawableRes
 import androidx.compose.animation.AnimatedVisibility
@@ -22,11 +22,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.compose.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.utils.ScrollingInfo
-import com.abhiram79.flowtune.compose.utils.scrollingInfo
-import com.abhiram79.flowtune.compose.utils.smoothScrollToTop
+import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.utils.ScrollingInfo
+import com.abhiram79.flowtune.utils.scrollingInfo
+import com.abhiram79.flowtune.utils.smoothScrollToTop
 import kotlinx.coroutines.launch
 
 @Composable

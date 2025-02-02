@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.screens.player
+package com.abhiram79.flowtune.ui.screens.player
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -21,8 +21,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.abhiram79.flowtune.compose.Database
-import com.abhiram79.flowtune.compose.LocalPlayerServiceBinder
+import com.abhiram79.flowtune.Database
+import com.abhiram79.flowtune.LocalPlayerServiceBinder
 import com.abhiram79.flowtune.preferences.PlayerPreferences
 import com.abhiram79.flowtune.ui.modifiers.PinchDirection
 import com.abhiram79.flowtune.ui.modifiers.onSwipe

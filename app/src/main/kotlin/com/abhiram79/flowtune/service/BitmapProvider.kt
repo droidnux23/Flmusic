@@ -1,11 +1,11 @@
-package com.abhiram79.flowtune.compose.service
+package com.abhiram79.flowtune.service
 
 import android.content.Context
 import android.content.res.Configuration
 import android.graphics.Bitmap
 import android.net.Uri
 import androidx.core.graphics.applyCanvas
-import com.abhiram79.flowtune.compose.utils.thumbnail
+import com.abhiram79.flowtune.utils.thumbnail
 import coil3.imageLoader
 import coil3.request.Disposable
 import coil3.request.ImageRequest

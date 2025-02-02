@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components.themed
+package com.abhiram79.flowtune.ui.components.themed
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -20,8 +20,8 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextOverflow
-import com.abhiram79.flowtune.compose.utils.secondary
-import com.abhiram79.flowtune.compose.utils.semiBold
+import com.abhiram79.flowtune.utils.secondary
+import com.abhiram79.flowtune.utils.semiBold
 import app.vitune.core.ui.Appearance
 import app.vitune.core.ui.LocalAppearance
 

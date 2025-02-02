@@ -97,10 +97,10 @@ import com.abhiram79.flowtune.utils.shouldBePlaying
 import com.abhiram79.flowtune.utils.shuffleQueue
 import com.abhiram79.flowtune.utils.smoothScrollToTop
 import com.abhiram79.flowtune.utils.windows
-import com.abhiram79.flowtune.compose.persist.persist
-import com.abhiram79.flowtune.compose.reordering.animateItemPlacement
-import com.abhiram79.flowtune.compose.reordering.draggedItem
-import com.abhiram79.flowtune.compose.reordering.rememberReorderingState
+import com.abhiram79.flowtune.persist.persist
+import com.abhiram79.flowtune.reordering.animateItemPlacement
+import com.abhiram79.flowtune.reordering.draggedItem
+import com.abhiram79.flowtune.reordering.rememberReorderingState
 import app.vitune.core.data.enums.PlaylistSortBy
 import app.vitune.core.data.enums.SortOrder
 import app.vitune.core.ui.Dimensions

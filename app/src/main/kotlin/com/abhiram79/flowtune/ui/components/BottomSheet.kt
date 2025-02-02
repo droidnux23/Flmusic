@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components
+package com.abhiram79.flowtune.ui.components
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.AnimationSpec
@@ -44,7 +44,7 @@ import androidx.compose.ui.unit.coerceAtLeast
 import androidx.compose.ui.unit.coerceAtMost
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.times
-import com.abhiram79.flowtune.compose.routing.CallbackPredictiveBackHandler
+import com.abhiram79.flowtune.routing.CallbackPredictiveBackHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

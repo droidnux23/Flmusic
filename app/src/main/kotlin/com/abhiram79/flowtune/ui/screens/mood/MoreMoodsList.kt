@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.screens.mood
+package com.abhiram79.flowtune.ui.screens.mood
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.WindowInsetsSides
@@ -22,15 +22,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEachIndexed
-import com.abhiram79.flowtune.compose.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.ui.components.ShimmerHost
-import com.abhiram79.flowtune.compose.ui.components.themed.Header
-import com.abhiram79.flowtune.compose.ui.components.themed.HeaderPlaceholder
-import com.abhiram79.flowtune.compose.ui.items.SongItemPlaceholder
-import com.abhiram79.flowtune.compose.ui.screens.home.MoodItem
-import com.abhiram79.flowtune.compose.utils.semiBold
-import com.abhiram79.flowtune.compose.persist.persist
+import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.ui.components.ShimmerHost
+import com.abhiram79.flowtune.ui.components.themed.Header
+import com.abhiram79.flowtune.ui.components.themed.HeaderPlaceholder
+import com.abhiram79.flowtune.ui.items.SongItemPlaceholder
+import com.abhiram79.flowtune.ui.screens.home.MoodItem
+import com.abhiram79.flowtune.utils.semiBold
+import com.abhiram79.flowtune.persist.persist
 import app.vitune.core.ui.Dimensions
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.providers.innertube.Innertube

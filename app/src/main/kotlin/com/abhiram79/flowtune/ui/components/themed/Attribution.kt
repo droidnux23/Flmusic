@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components.themed
+package com.abhiram79.flowtune.ui.components.themed
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.clickable
@@ -21,12 +21,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.compose.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.utils.align
-import com.abhiram79.flowtune.compose.utils.disabled
-import com.abhiram79.flowtune.compose.utils.secondary
-import com.abhiram79.flowtune.compose.utils.semiBold
+import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.utils.align
+import com.abhiram79.flowtune.utils.disabled
+import com.abhiram79.flowtune.utils.secondary
+import com.abhiram79.flowtune.utils.semiBold
 import app.vitune.core.ui.LocalAppearance
 
 @Composable

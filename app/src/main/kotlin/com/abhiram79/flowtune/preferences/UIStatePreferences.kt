@@ -1,11 +1,11 @@
-package com.abhiram79.flowtune.compose.preferences
+package com.abhiram79.flowtune.preferences
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.SnapshotMutationPolicy
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import com.abhiram79.flowtune.compose.GlobalPreferencesHolder
+import com.abhiram79.flowtune.GlobalPreferencesHolder
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList

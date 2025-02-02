@@ -50,8 +50,8 @@ import com.abhiram79.flowtune.ui.screens.Route
 import com.abhiram79.flowtune.utils.color
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.compose.persist.PersistMapCleanup
-import com.abhiram79.flowtune.compose.routing.RouteHandler
+import com.abhiram79.flowtune.persist.PersistMapCleanup
+import com.abhiram79.flowtune.routing.RouteHandler
 import app.vitune.core.ui.LocalAppearance
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList

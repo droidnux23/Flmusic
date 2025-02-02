@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.screens.localplaylist
+package com.abhiram79.flowtune.ui.screens.localplaylist
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -6,18 +6,18 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
 import androidx.compose.runtime.setValue
-import com.abhiram79.flowtune.compose.Database
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.models.Playlist
-import com.abhiram79.flowtune.compose.models.Song
-import com.abhiram79.flowtune.compose.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.compose.ui.components.themed.adaptiveThumbnailContent
-import com.abhiram79.flowtune.compose.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.compose.ui.screens.Route
-import com.abhiram79.flowtune.compose.persist.PersistMapCleanup
-import com.abhiram79.flowtune.compose.persist.persist
-import com.abhiram79.flowtune.compose.persist.persistList
-import com.abhiram79.flowtune.compose.routing.RouteHandler
+import com.abhiram79.flowtune.Database
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.models.Playlist
+import com.abhiram79.flowtune.models.Song
+import com.abhiram79.flowtune.ui.components.themed.Scaffold
+import com.abhiram79.flowtune.ui.components.themed.adaptiveThumbnailContent
+import com.abhiram79.flowtune.ui.screens.GlobalRoutes
+import com.abhiram79.flowtune.ui.screens.Route
+import com.abhiram79.flowtune.persist.PersistMapCleanup
+import com.abhiram79.flowtune.persist.persist
+import com.abhiram79.flowtune.persist.persistList
+import com.abhiram79.flowtune.routing.RouteHandler
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filterNotNull

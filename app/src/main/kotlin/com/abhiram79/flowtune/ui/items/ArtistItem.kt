@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.items
+package com.abhiram79.flowtune.ui.items
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Spacer
@@ -14,11 +14,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.compose.models.Artist
-import com.abhiram79.flowtune.compose.ui.components.themed.TextPlaceholder
-import com.abhiram79.flowtune.compose.utils.secondary
-import com.abhiram79.flowtune.compose.utils.semiBold
-import com.abhiram79.flowtune.compose.utils.thumbnail
+import com.abhiram79.flowtune.models.Artist
+import com.abhiram79.flowtune.ui.components.themed.TextPlaceholder
+import com.abhiram79.flowtune.utils.secondary
+import com.abhiram79.flowtune.utils.semiBold
+import com.abhiram79.flowtune.utils.thumbnail
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.shimmer
 import app.vitune.core.ui.utils.px

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.items
+package com.abhiram79.flowtune.ui.items
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.Image
@@ -26,16 +26,16 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.media3.common.MediaItem
-import com.abhiram79.flowtune.compose.LocalPlayerServiceBinder
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.models.Song
-import com.abhiram79.flowtune.compose.preferences.AppearancePreferences
-import com.abhiram79.flowtune.compose.ui.components.themed.TextPlaceholder
-import com.abhiram79.flowtune.compose.utils.medium
-import com.abhiram79.flowtune.compose.utils.secondary
-import com.abhiram79.flowtune.compose.utils.semiBold
-import com.abhiram79.flowtune.compose.utils.thumbnail
-import com.abhiram79.flowtune.compose.utils.windowState
+import com.abhiram79.flowtune.LocalPlayerServiceBinder
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.models.Song
+import com.abhiram79.flowtune.preferences.AppearancePreferences
+import com.abhiram79.flowtune.ui.components.themed.TextPlaceholder
+import com.abhiram79.flowtune.utils.medium
+import com.abhiram79.flowtune.utils.secondary
+import com.abhiram79.flowtune.utils.semiBold
+import com.abhiram79.flowtune.utils.thumbnail
+import com.abhiram79.flowtune.utils.windowState
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.shimmer
 import app.vitune.core.ui.utils.px

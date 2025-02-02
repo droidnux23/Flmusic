@@ -35,9 +35,9 @@ import com.abhiram79.flowtune.ui.screens.playlistRoute
 import com.abhiram79.flowtune.utils.asMediaItem
 import com.abhiram79.flowtune.utils.forcePlay
 import com.abhiram79.flowtune.utils.playingSong
-import com.abhiram79.flowtune.compose.persist.LocalPersistMap
-import com.abhiram79.flowtune.compose.persist.PersistMapCleanup
-import com.abhiram79.flowtune.compose.routing.RouteHandler
+import com.abhiram79.flowtune.persist.LocalPersistMap
+import com.abhiram79.flowtune.persist.PersistMapCleanup
+import com.abhiram79.flowtune.routing.RouteHandler
 import app.vitune.core.ui.Dimensions
 import app.vitune.providers.innertube.Innertube
 import app.vitune.providers.innertube.models.bodies.ContinuationBody

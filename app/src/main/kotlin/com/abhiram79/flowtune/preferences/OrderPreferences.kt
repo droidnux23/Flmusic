@@ -1,6 +1,6 @@
-package com.abhiram79.flowtune.compose.preferences
+package com.abhiram79.flowtune.preferences
 
-import com.abhiram79.flowtune.compose.GlobalPreferencesHolder
+import com.abhiram79.flowtune.GlobalPreferencesHolder
 import app.vitune.core.data.enums.AlbumSortBy
 import app.vitune.core.data.enums.ArtistSortBy
 import app.vitune.core.data.enums.PlaylistSortBy

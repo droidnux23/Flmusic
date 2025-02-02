@@ -53,7 +53,7 @@ import com.abhiram79.flowtune.utils.enqueue
 import com.abhiram79.flowtune.utils.forcePlayAtIndex
 import com.abhiram79.flowtune.utils.forcePlayFromBeginning
 import com.abhiram79.flowtune.utils.playingSong
-import com.abhiram79.flowtune.compose.persist.persist
+import com.abhiram79.flowtune.persist.persist
 import app.vitune.core.ui.Dimensions
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.utils.isLandscape

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components.themed
+package com.abhiram79.flowtune.ui.components.themed
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -16,8 +16,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.compose.ui.components.FadingRow
-import com.abhiram79.flowtune.compose.utils.medium
+import com.abhiram79.flowtune.ui.components.FadingRow
+import com.abhiram79.flowtune.utils.medium
 import app.vitune.core.ui.Dimensions
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.shimmer

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components.themed
+package com.abhiram79.flowtune.ui.components.themed
 
 import androidx.annotation.FloatRange
 import androidx.compose.foundation.background

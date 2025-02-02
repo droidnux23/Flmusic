@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.models
+package com.abhiram79.flowtune.models
 
 import androidx.compose.runtime.Immutable
 import androidx.room.Embedded

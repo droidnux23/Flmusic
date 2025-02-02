@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.persist
+package com.abhiram79.flowtune.persist
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState

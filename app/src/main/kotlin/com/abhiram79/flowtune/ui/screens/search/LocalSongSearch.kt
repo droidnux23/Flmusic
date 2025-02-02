@@ -38,7 +38,7 @@ import com.abhiram79.flowtune.utils.asMediaItem
 import com.abhiram79.flowtune.utils.forcePlay
 import com.abhiram79.flowtune.utils.medium
 import com.abhiram79.flowtune.utils.playingSong
-import com.abhiram79.flowtune.compose.persist.persistList
+import com.abhiram79.flowtune.persist.persistList
 import app.vitune.core.ui.Dimensions
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.providers.innertube.models.NavigationEndpoint

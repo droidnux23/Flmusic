@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components.themed
+package com.abhiram79.flowtune.ui.components.themed
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.material3.ProgressIndicatorDefaults

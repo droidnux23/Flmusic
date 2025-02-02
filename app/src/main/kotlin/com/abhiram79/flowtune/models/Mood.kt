@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.models
+package com.abhiram79.flowtune.models
 
 import android.os.Parcelable
 import androidx.compose.ui.graphics.Color

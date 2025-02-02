@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.reordering
+package com.abhiram79.flowtune.reordering
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.gestures.Orientation

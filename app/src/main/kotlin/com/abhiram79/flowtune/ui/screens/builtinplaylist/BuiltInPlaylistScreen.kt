@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.screens.builtinplaylist
+package com.abhiram79.flowtune.ui.screens.builtinplaylist
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
@@ -9,14 +9,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
 import androidx.compose.ui.res.stringResource
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.preferences.DataPreferences
-import com.abhiram79.flowtune.compose.preferences.UIStatePreferences
-import com.abhiram79.flowtune.compose.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.compose.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.compose.ui.screens.Route
-import com.abhiram79.flowtune.compose.persist.PersistMapCleanup
-import com.abhiram79.flowtune.compose.routing.RouteHandler
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.preferences.DataPreferences
+import com.abhiram79.flowtune.preferences.UIStatePreferences
+import com.abhiram79.flowtune.ui.components.themed.Scaffold
+import com.abhiram79.flowtune.ui.screens.GlobalRoutes
+import com.abhiram79.flowtune.ui.screens.Route
+import com.abhiram79.flowtune.persist.PersistMapCleanup
+import com.abhiram79.flowtune.routing.RouteHandler
 import app.vitune.core.data.enums.BuiltInPlaylist
 
 object BuiltInPlaylistScreen {

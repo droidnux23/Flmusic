@@ -1,14 +1,14 @@
-package com.abhiram79.flowtune.compose.ui.screens.mood
+package com.abhiram79.flowtune.ui.screens.mood
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.compose.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.compose.ui.screens.Route
-import com.abhiram79.flowtune.compose.ui.screens.albumRoute
-import com.abhiram79.flowtune.compose.persist.PersistMapCleanup
-import com.abhiram79.flowtune.compose.routing.RouteHandler
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.ui.components.themed.Scaffold
+import com.abhiram79.flowtune.ui.screens.GlobalRoutes
+import com.abhiram79.flowtune.ui.screens.Route
+import com.abhiram79.flowtune.ui.screens.albumRoute
+import com.abhiram79.flowtune.persist.PersistMapCleanup
+import com.abhiram79.flowtune.routing.RouteHandler
 
 @Route
 @Composable

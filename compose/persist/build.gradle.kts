@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.abhiram79.flowtune.compose.persist"
+    namespace = "com.abhiram79.flowtune.persist"
     compileSdk = 35
 
     defaultConfig {

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.routing
+package com.abhiram79.flowtune.routing
 
 import androidx.activity.compose.PredictiveBackHandler
 import androidx.compose.runtime.Composable

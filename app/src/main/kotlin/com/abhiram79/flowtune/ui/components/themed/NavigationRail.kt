@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components.themed
+package com.abhiram79.flowtune.ui.components.themed
 
 import android.os.Parcelable
 import androidx.annotation.DrawableRes
@@ -50,12 +50,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEachIndexed
-import com.abhiram79.flowtune.compose.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.ui.screens.settings.SwitchSettingsEntry
-import com.abhiram79.flowtune.compose.utils.center
-import com.abhiram79.flowtune.compose.utils.color
-import com.abhiram79.flowtune.compose.utils.semiBold
+import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.ui.screens.settings.SwitchSettingsEntry
+import com.abhiram79.flowtune.utils.center
+import com.abhiram79.flowtune.utils.color
+import com.abhiram79.flowtune.utils.semiBold
 import app.vitune.core.ui.Dimensions
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.utils.isLandscape

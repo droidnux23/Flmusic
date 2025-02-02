@@ -10,7 +10,7 @@ plugins {
 }
 
 android {
-    val appId = "com.abhiram79.flowtune.compose"
+    val appId = "com.abhiram79.flowtune"
 
     namespace = appId
     compileSdk = 35

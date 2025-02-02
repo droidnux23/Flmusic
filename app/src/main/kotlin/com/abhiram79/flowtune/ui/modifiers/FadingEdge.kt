@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.modifiers
+package com.abhiram79.flowtune.ui.modifiers
 
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawWithContent

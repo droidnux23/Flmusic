@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.preferences
+package com.abhiram79.flowtune.preferences
 
 import android.app.Application
 import android.content.Context

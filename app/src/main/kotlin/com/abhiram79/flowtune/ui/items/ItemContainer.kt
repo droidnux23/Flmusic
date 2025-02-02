@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.items
+package com.abhiram79.flowtune.ui.items
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

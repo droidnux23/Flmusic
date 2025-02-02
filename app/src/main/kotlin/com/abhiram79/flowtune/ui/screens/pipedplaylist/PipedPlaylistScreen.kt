@@ -1,16 +1,16 @@
-package com.abhiram79.flowtune.compose.ui.screens.pipedplaylist
+package com.abhiram79.flowtune.ui.screens.pipedplaylist
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
-import com.abhiram79.flowtune.compose.R
-import com.abhiram79.flowtune.compose.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.compose.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.compose.ui.screens.Route
-import com.abhiram79.flowtune.compose.persist.PersistMapCleanup
-import com.abhiram79.flowtune.compose.routing.RouteHandler
+import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.ui.components.themed.Scaffold
+import com.abhiram79.flowtune.ui.screens.GlobalRoutes
+import com.abhiram79.flowtune.ui.screens.Route
+import com.abhiram79.flowtune.persist.PersistMapCleanup
+import com.abhiram79.flowtune.routing.RouteHandler
 import app.vitune.providers.piped.models.authenticatedWith
 import io.ktor.http.Url
 import java.util.UUID

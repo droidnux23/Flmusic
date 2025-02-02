@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.ui.components
+package com.abhiram79.flowtune.ui.components
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.foundation.Canvas

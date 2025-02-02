@@ -57,8 +57,8 @@ import com.abhiram79.flowtune.utils.center
 import com.abhiram79.flowtune.utils.disabled
 import com.abhiram79.flowtune.utils.medium
 import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.compose.persist.persist
-import com.abhiram79.flowtune.compose.persist.persistList
+import com.abhiram79.flowtune.persist.persist
+import com.abhiram79.flowtune.persist.persistList
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.providers.innertube.Innertube
 import app.vitune.providers.innertube.models.bodies.SearchSuggestionsBody
