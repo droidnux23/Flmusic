@@ -1,4 +1,4 @@
-package app.vitune.providers.innertube.models
+package com.abhiram79.flowtune.providers.innertube.models
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
@@ -16,7 +16,7 @@ data class ThumbnailRenderer(
     ) {
         @Serializable
         data class Thumbnail(
-            val thumbnails: List<app.vitune.providers.innertube.models.Thumbnail>?
+            val thumbnails: List<com.abhiram79.flowtune.providers.innertube.models.Thumbnail>?
         )
     }
 }

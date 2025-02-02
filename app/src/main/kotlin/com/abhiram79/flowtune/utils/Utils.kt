@@ -18,11 +18,11 @@ import com.abhiram79.flowtune.models.Song
 import com.abhiram79.flowtune.preferences.AppearancePreferences
 import com.abhiram79.flowtune.service.LOCAL_KEY_PREFIX
 import com.abhiram79.flowtune.service.isLocal
-import app.vitune.core.ui.utils.SongBundleAccessor
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.bodies.ContinuationBody
-import app.vitune.providers.innertube.requests.playlistPage
-import app.vitune.providers.piped.models.Playlist
+import com.abhiram79.flowtune.core.ui.utils.SongBundleAccessor
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.bodies.ContinuationBody
+import com.abhiram79.flowtune.providers.innertube.requests.playlistPage
+import com.abhiram79.flowtune.providers.piped.models.Playlist
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.onEach

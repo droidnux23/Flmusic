@@ -1,10 +1,10 @@
-package app.vitune.providers.innertube.requests
+package com.abhiram79.flowtune.providers.innertube.requests
 
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.GetQueueResponse
-import app.vitune.providers.innertube.models.bodies.QueueBody
-import app.vitune.providers.innertube.utils.from
-import app.vitune.providers.utils.runCatchingCancellable
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.GetQueueResponse
+import com.abhiram79.flowtune.providers.innertube.models.bodies.QueueBody
+import com.abhiram79.flowtune.providers.innertube.utils.from
+import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.call.body
 import io.ktor.client.request.post
 import io.ktor.client.request.setBody

@@ -1,7 +1,7 @@
 package com.abhiram79.flowtune.models.ui
 
 import androidx.media3.common.MediaItem
-import app.vitune.core.ui.utils.songBundle
+import com.abhiram79.flowtune.core.ui.utils.songBundle
 
 data class UiMedia(
     val id: String,

@@ -18,8 +18,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.abhiram79.flowtune.R
 import com.abhiram79.flowtune.utils.medium
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.roundedShape
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.roundedShape
 
 @Composable
 fun TextToggle(

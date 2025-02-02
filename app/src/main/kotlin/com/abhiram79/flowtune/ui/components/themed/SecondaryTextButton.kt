@@ -11,9 +11,9 @@ import androidx.compose.ui.unit.dp
 import com.abhiram79.flowtune.utils.center
 import com.abhiram79.flowtune.utils.disabled
 import com.abhiram79.flowtune.utils.medium
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.surface
-import app.vitune.core.ui.utils.roundedShape
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.surface
+import com.abhiram79.flowtune.core.ui.utils.roundedShape
 
 @Composable
 fun SecondaryTextButton(

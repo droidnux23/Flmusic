@@ -27,7 +27,7 @@ import com.abhiram79.flowtune.utils.align
 import com.abhiram79.flowtune.utils.disabled
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.utils.semiBold
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 
 @Composable
 fun Attribution(

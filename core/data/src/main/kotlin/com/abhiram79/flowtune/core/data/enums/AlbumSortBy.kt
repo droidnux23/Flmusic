@@ -1,4 +1,4 @@
-package app.vitune.core.data.enums
+package com.abhiram79.flowtune.core.data.enums
 
 enum class AlbumSortBy {
     Title,

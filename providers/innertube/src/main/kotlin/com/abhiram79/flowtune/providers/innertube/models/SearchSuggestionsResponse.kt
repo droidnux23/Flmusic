@@ -1,4 +1,4 @@
-package app.vitune.providers.innertube.models
+package com.abhiram79.flowtune.providers.innertube.models
 
 import kotlinx.serialization.Serializable
 

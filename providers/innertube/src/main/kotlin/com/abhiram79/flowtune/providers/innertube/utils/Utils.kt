@@ -1,7 +1,7 @@
-package app.vitune.providers.innertube.utils
+package com.abhiram79.flowtune.providers.innertube.utils
 
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.SectionListRenderer
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.SectionListRenderer
 
 internal fun SectionListRenderer.findSectionByTitle(text: String) = contents?.find {
     val title = it

@@ -27,7 +27,7 @@ import com.abhiram79.flowtune.utils.forcePlayAtIndex
 import com.abhiram79.flowtune.utils.forceSeekToNext
 import com.abhiram79.flowtune.utils.forceSeekToPrevious
 import com.abhiram79.flowtune.utils.intent
-import app.vitune.core.data.utils.CallValidator
+import com.abhiram79.flowtune.core.data.utils.CallValidator
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.cancellable

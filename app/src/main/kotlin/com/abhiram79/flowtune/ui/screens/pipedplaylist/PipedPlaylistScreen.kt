@@ -11,7 +11,7 @@ import com.abhiram79.flowtune.ui.screens.GlobalRoutes
 import com.abhiram79.flowtune.ui.screens.Route
 import com.abhiram79.flowtune.persist.PersistMapCleanup
 import com.abhiram79.flowtune.routing.RouteHandler
-import app.vitune.providers.piped.models.authenticatedWith
+import com.abhiram79.flowtune.providers.piped.models.authenticatedWith
 import io.ktor.http.Url
 import java.util.UUID
 

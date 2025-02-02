@@ -34,9 +34,9 @@ import com.abhiram79.flowtune.utils.enqueue
 import com.abhiram79.flowtune.utils.forcePlayAtIndex
 import com.abhiram79.flowtune.utils.forcePlayFromBeginning
 import com.abhiram79.flowtune.utils.playingSong
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.isLandscape
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.isLandscape
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 

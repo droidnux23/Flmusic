@@ -1,4 +1,4 @@
-package app.vitune.core.ui
+package com.abhiram79.flowtune.core.ui
 
 import androidx.compose.material.ripple.RippleAlpha
 import androidx.compose.material3.ExperimentalMaterial3Api

@@ -52,12 +52,12 @@ import com.abhiram79.flowtune.models.SongPlaylistMap
 import com.abhiram79.flowtune.models.SongWithContentLength
 import com.abhiram79.flowtune.models.SortedSongPlaylistMap
 import com.abhiram79.flowtune.service.LOCAL_KEY_PREFIX
-import app.vitune.core.data.enums.AlbumSortBy
-import app.vitune.core.data.enums.ArtistSortBy
-import app.vitune.core.data.enums.PlaylistSortBy
-import app.vitune.core.data.enums.SongSortBy
-import app.vitune.core.data.enums.SortOrder
-import app.vitune.core.ui.utils.songBundle
+import com.abhiram79.flowtune.core.data.enums.AlbumSortBy
+import com.abhiram79.flowtune.core.data.enums.ArtistSortBy
+import com.abhiram79.flowtune.core.data.enums.PlaylistSortBy
+import com.abhiram79.flowtune.core.data.enums.SongSortBy
+import com.abhiram79.flowtune.core.data.enums.SortOrder
+import com.abhiram79.flowtune.core.ui.utils.songBundle
 import io.ktor.http.Url
 import kotlinx.coroutines.flow.Flow
 

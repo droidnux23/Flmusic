@@ -34,7 +34,7 @@ import com.abhiram79.flowtune.service.PrecacheService
 import com.abhiram79.flowtune.service.downloadState
 import com.abhiram79.flowtune.ui.components.themed.CircularProgressIndicator
 import com.abhiram79.flowtune.ui.components.themed.HeaderIconButton
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.flow.distinctUntilChanged
 import java.util.concurrent.atomic.AtomicBoolean

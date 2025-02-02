@@ -1,4 +1,4 @@
-package app.vitune.core.ui
+package com.abhiram79.flowtune.core.ui
 
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode

@@ -17,7 +17,7 @@ import com.abhiram79.flowtune.ui.screens.GlobalRoutes
 import com.abhiram79.flowtune.ui.screens.Route
 import com.abhiram79.flowtune.persist.PersistMapCleanup
 import com.abhiram79.flowtune.routing.RouteHandler
-import app.vitune.core.data.enums.BuiltInPlaylist
+import com.abhiram79.flowtune.core.data.enums.BuiltInPlaylist
 
 object BuiltInPlaylistScreen {
     internal const val KEY = "builtinplaylist"

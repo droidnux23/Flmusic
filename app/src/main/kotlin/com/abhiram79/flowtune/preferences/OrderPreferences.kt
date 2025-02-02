@@ -1,11 +1,11 @@
 package com.abhiram79.flowtune.preferences
 
 import com.abhiram79.flowtune.GlobalPreferencesHolder
-import app.vitune.core.data.enums.AlbumSortBy
-import app.vitune.core.data.enums.ArtistSortBy
-import app.vitune.core.data.enums.PlaylistSortBy
-import app.vitune.core.data.enums.SongSortBy
-import app.vitune.core.data.enums.SortOrder
+import com.abhiram79.flowtune.core.data.enums.AlbumSortBy
+import com.abhiram79.flowtune.core.data.enums.ArtistSortBy
+import com.abhiram79.flowtune.core.data.enums.PlaylistSortBy
+import com.abhiram79.flowtune.core.data.enums.SongSortBy
+import com.abhiram79.flowtune.core.data.enums.SortOrder
 
 object OrderPreferences : GlobalPreferencesHolder() {
     var songSortOrder by enum(SortOrder.Descending)

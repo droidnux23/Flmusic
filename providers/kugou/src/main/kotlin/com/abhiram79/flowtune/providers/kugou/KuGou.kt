@@ -1,9 +1,9 @@
-package app.vitune.providers.kugou
+package com.abhiram79.flowtune.providers.kugou
 
-import app.vitune.providers.kugou.models.DownloadLyricsResponse
-import app.vitune.providers.kugou.models.SearchLyricsResponse
-import app.vitune.providers.kugou.models.SearchSongResponse
-import app.vitune.providers.utils.runCatchingCancellable
+import com.abhiram79.flowtune.providers.kugou.models.DownloadLyricsResponse
+import com.abhiram79.flowtune.providers.kugou.models.SearchLyricsResponse
+import com.abhiram79.flowtune.providers.kugou.models.SearchSongResponse
+import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.okhttp.OkHttp

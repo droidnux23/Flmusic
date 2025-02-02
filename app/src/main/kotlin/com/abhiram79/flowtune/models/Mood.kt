@@ -2,8 +2,8 @@ package com.abhiram79.flowtune.models
 
 import android.os.Parcelable
 import androidx.compose.ui.graphics.Color
-import app.vitune.core.ui.ColorParceler
-import app.vitune.providers.innertube.Innertube
+import com.abhiram79.flowtune.core.ui.ColorParceler
+import com.abhiram79.flowtune.providers.innertube.Innertube
 import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.WriteWith
 

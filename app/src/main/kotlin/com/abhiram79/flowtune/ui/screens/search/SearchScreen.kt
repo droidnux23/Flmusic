@@ -23,7 +23,7 @@ import com.abhiram79.flowtune.ui.screens.Route
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.persist.PersistMapCleanup
 import com.abhiram79.flowtune.routing.RouteHandler
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 
 @Route
 @Composable

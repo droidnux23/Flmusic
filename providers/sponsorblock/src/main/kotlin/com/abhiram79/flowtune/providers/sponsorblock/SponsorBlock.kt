@@ -1,4 +1,4 @@
-package app.vitune.providers.sponsorblock
+package com.abhiram79.flowtune.providers.sponsorblock
 
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO

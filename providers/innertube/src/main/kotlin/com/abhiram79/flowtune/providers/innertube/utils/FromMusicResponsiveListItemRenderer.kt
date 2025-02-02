@@ -1,9 +1,9 @@
-package app.vitune.providers.innertube.utils
+package com.abhiram79.flowtune.providers.innertube.utils
 
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.MusicResponsiveListItemRenderer
-import app.vitune.providers.innertube.models.NavigationEndpoint
-import app.vitune.providers.innertube.models.isExplicit
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.MusicResponsiveListItemRenderer
+import com.abhiram79.flowtune.providers.innertube.models.NavigationEndpoint
+import com.abhiram79.flowtune.providers.innertube.models.isExplicit
 
 fun Innertube.SongItem.Companion.from(renderer: MusicResponsiveListItemRenderer) =
     Innertube.SongItem(

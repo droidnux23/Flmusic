@@ -56,10 +56,10 @@ import com.abhiram79.flowtune.ui.screens.settings.SwitchSettingsEntry
 import com.abhiram79.flowtune.utils.center
 import com.abhiram79.flowtune.utils.color
 import com.abhiram79.flowtune.utils.semiBold
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.isLandscape
-import app.vitune.core.ui.utils.roundedShape
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.isLandscape
+import com.abhiram79.flowtune.core.ui.utils.roundedShape
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.parcelize.IgnoredOnParcel

@@ -1,4 +1,4 @@
-package app.vitune.core.ui.utils
+package com.abhiram79.flowtune.core.ui.utils
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.unit.Dp

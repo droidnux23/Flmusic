@@ -18,9 +18,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.abhiram79.flowtune.ui.components.FadingRow
 import com.abhiram79.flowtune.utils.medium
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.shimmer
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.shimmer
 import kotlin.random.Random
 
 @Composable

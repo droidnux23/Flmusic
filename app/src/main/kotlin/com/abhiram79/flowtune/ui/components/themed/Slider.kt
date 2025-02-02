@@ -5,8 +5,8 @@ import androidx.compose.material3.SliderDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.surface
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.surface
 
 @Composable
 fun Slider(

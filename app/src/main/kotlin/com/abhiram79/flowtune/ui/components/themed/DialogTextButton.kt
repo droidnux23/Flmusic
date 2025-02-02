@@ -12,8 +12,8 @@ import androidx.compose.ui.unit.dp
 import com.abhiram79.flowtune.utils.disabled
 import com.abhiram79.flowtune.utils.medium
 import com.abhiram79.flowtune.utils.primary
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.roundedShape
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.roundedShape
 
 @Composable
 fun DialogTextButton(

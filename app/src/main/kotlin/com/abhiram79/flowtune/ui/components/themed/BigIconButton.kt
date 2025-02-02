@@ -16,8 +16,8 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.roundedShape
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.roundedShape
 
 @Composable
 fun BigIconButton(

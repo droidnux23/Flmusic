@@ -34,10 +34,10 @@ import com.abhiram79.flowtune.ui.components.themed.HeaderIconButton
 import com.abhiram79.flowtune.ui.items.AlbumItem
 import com.abhiram79.flowtune.ui.screens.Route
 import com.abhiram79.flowtune.persist.persist
-import app.vitune.core.data.enums.AlbumSortBy
-import app.vitune.core.data.enums.SortOrder
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.data.enums.AlbumSortBy
+import com.abhiram79.flowtune.core.data.enums.SortOrder
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 
 @Route
 @Composable

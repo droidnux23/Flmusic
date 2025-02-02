@@ -6,7 +6,7 @@ import androidx.media3.common.PlaybackParameters
 import androidx.media3.common.Player
 import androidx.media3.common.Timeline
 import com.abhiram79.flowtune.preferences.AppearancePreferences
-import app.vitune.core.ui.utils.songBundle
+import com.abhiram79.flowtune.core.ui.utils.songBundle
 import kotlin.time.Duration
 
 val Player.currentWindow: Timeline.Window?

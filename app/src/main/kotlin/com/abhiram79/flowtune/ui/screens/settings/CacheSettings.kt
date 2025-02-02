@@ -24,7 +24,7 @@ import com.abhiram79.flowtune.preferences.PlayerPreferences
 import com.abhiram79.flowtune.ui.components.themed.LinearProgressIndicator
 import com.abhiram79.flowtune.ui.components.themed.SecondaryTextButton
 import com.abhiram79.flowtune.ui.screens.Route
-import app.vitune.core.data.enums.ExoPlayerDiskCacheSize
+import com.abhiram79.flowtune.core.data.enums.ExoPlayerDiskCacheSize
 import coil3.imageLoader
 
 @OptIn(UnstableApi::class)

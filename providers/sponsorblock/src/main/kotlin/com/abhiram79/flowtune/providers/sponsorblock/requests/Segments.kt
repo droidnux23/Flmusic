@@ -1,11 +1,11 @@
-package app.vitune.providers.sponsorblock.requests
+package com.abhiram79.flowtune.providers.sponsorblock.requests
 
-import app.vitune.providers.sponsorblock.SponsorBlock
-import app.vitune.providers.sponsorblock.models.Action
-import app.vitune.providers.sponsorblock.models.Category
-import app.vitune.providers.sponsorblock.models.Segment
-import app.vitune.providers.utils.SerializableUUID
-import app.vitune.providers.utils.runCatchingCancellable
+import com.abhiram79.flowtune.providers.sponsorblock.SponsorBlock
+import com.abhiram79.flowtune.providers.sponsorblock.models.Action
+import com.abhiram79.flowtune.providers.sponsorblock.models.Category
+import com.abhiram79.flowtune.providers.sponsorblock.models.Segment
+import com.abhiram79.flowtune.providers.utils.SerializableUUID
+import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.call.body
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter

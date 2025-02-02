@@ -8,7 +8,7 @@ import android.content.IntentFilter
 import android.graphics.drawable.Icon
 import android.util.Log
 import androidx.core.content.ContextCompat
-import app.vitune.core.ui.utils.isAtLeastAndroid6
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid6
 import kotlin.properties.PropertyDelegateProvider
 import kotlin.properties.ReadOnlyProperty
 import kotlin.reflect.KProperty

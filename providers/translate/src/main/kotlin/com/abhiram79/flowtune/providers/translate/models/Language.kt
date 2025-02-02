@@ -1,4 +1,4 @@
-package app.vitune.providers.translate.models
+package com.abhiram79.flowtune.providers.translate.models
 
 import kotlin.enums.enumEntries
 

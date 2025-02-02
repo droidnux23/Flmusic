@@ -10,8 +10,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.abhiram79.flowtune.models.Album
 import com.abhiram79.flowtune.utils.semiBold
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.providers.innertube.Innertube
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.providers.innertube.Innertube
 
 @Composable
 fun PlaylistInfo(

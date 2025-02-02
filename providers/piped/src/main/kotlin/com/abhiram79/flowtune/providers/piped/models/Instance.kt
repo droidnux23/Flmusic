@@ -1,4 +1,4 @@
-package app.vitune.providers.piped.models
+package com.abhiram79.flowtune.providers.piped.models
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

@@ -7,7 +7,7 @@ import androidx.compose.ui.unit.dp
 import com.abhiram79.flowtune.R
 import com.abhiram79.flowtune.reordering.ReorderingState
 import com.abhiram79.flowtune.reordering.reorder
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 
 @Composable
 fun ReorderHandle(

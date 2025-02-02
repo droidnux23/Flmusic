@@ -37,9 +37,9 @@ import com.abhiram79.flowtune.ui.screens.Route
 import com.abhiram79.flowtune.utils.AudioMediaCursor
 import com.abhiram79.flowtune.utils.hasPermission
 import com.abhiram79.flowtune.utils.medium
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.isAtLeastAndroid13
-import app.vitune.core.ui.utils.isCompositionLaunched
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid13
+import com.abhiram79.flowtune.core.ui.utils.isCompositionLaunched
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

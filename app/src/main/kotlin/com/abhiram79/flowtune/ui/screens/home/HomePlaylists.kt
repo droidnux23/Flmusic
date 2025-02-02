@@ -52,16 +52,16 @@ import com.abhiram79.flowtune.ui.screens.settings.SettingsEntryGroupText
 import com.abhiram79.flowtune.ui.screens.settings.SettingsGroupSpacer
 import com.abhiram79.flowtune.persist.persist
 import com.abhiram79.flowtune.persist.persistList
-import app.vitune.core.data.enums.BuiltInPlaylist
-import app.vitune.core.data.enums.PlaylistSortBy
-import app.vitune.core.data.enums.SortOrder
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.providers.piped.Piped
-import app.vitune.providers.piped.models.Session
+import com.abhiram79.flowtune.core.data.enums.BuiltInPlaylist
+import com.abhiram79.flowtune.core.data.enums.PlaylistSortBy
+import com.abhiram79.flowtune.core.data.enums.SortOrder
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.providers.piped.Piped
+import com.abhiram79.flowtune.providers.piped.models.Session
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.async
-import app.vitune.providers.piped.models.PlaylistPreview as PipedPlaylistPreview
+import com.abhiram79.flowtune.providers.piped.models.PlaylistPreview as PipedPlaylistPreview
 
 @Route
 @Composable

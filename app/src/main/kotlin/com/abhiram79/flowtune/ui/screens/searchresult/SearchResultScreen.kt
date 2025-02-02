@@ -38,12 +38,12 @@ import com.abhiram79.flowtune.utils.playingSong
 import com.abhiram79.flowtune.persist.LocalPersistMap
 import com.abhiram79.flowtune.persist.PersistMapCleanup
 import com.abhiram79.flowtune.routing.RouteHandler
-import app.vitune.core.ui.Dimensions
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.bodies.ContinuationBody
-import app.vitune.providers.innertube.models.bodies.SearchBody
-import app.vitune.providers.innertube.requests.searchPage
-import app.vitune.providers.innertube.utils.from
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.bodies.ContinuationBody
+import com.abhiram79.flowtune.providers.innertube.models.bodies.SearchBody
+import com.abhiram79.flowtune.providers.innertube.requests.searchPage
+import com.abhiram79.flowtune.providers.innertube.utils.from
 
 @OptIn(ExperimentalFoundationApi::class)
 @Route

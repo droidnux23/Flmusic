@@ -1,6 +1,6 @@
-package app.vitune.providers.github.models
+package com.abhiram79.flowtune.providers.github.models
 
-import app.vitune.providers.utils.SerializableUrl
+import com.abhiram79.flowtune.providers.utils.SerializableUrl
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

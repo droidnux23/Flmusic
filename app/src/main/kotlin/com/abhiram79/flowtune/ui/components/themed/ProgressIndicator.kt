@@ -8,7 +8,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.StrokeCap
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 
 @Composable
 fun CircularProgressIndicator(

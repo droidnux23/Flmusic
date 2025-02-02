@@ -65,10 +65,10 @@ import com.abhiram79.flowtune.utils.forceSeekToNext
 import com.abhiram79.flowtune.utils.forceSeekToPrevious
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.utils.semiBold
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.favoritesIcon
-import app.vitune.core.ui.utils.px
-import app.vitune.core.ui.utils.roundedShape
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.favoritesIcon
+import com.abhiram79.flowtune.core.ui.utils.px
+import com.abhiram79.flowtune.core.ui.utils.roundedShape
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

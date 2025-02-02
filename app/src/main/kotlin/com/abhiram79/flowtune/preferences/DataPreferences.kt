@@ -4,9 +4,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import com.abhiram79.flowtune.GlobalPreferencesHolder
 import com.abhiram79.flowtune.R
-import app.vitune.core.data.enums.CoilDiskCacheSize
-import app.vitune.core.data.enums.ExoPlayerDiskCacheSize
-import app.vitune.providers.innertube.Innertube
+import com.abhiram79.flowtune.core.data.enums.CoilDiskCacheSize
+import com.abhiram79.flowtune.core.data.enums.ExoPlayerDiskCacheSize
+import com.abhiram79.flowtune.providers.innertube.Innertube
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours

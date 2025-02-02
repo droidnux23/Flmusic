@@ -25,7 +25,7 @@ import com.abhiram79.flowtune.routing.Route1
 import com.abhiram79.flowtune.routing.Route3
 import com.abhiram79.flowtune.routing.Route4
 import com.abhiram79.flowtune.routing.RouteHandlerScope
-import app.vitune.core.data.enums.BuiltInPlaylist
+import com.abhiram79.flowtune.core.data.enums.BuiltInPlaylist
 import io.ktor.http.Url
 import java.util.UUID
 

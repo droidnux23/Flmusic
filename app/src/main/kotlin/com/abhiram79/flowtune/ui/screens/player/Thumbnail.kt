@@ -61,9 +61,9 @@ import com.abhiram79.flowtune.utils.forceSeekToNext
 import com.abhiram79.flowtune.utils.forceSeekToPrevious
 import com.abhiram79.flowtune.utils.thumbnail
 import com.abhiram79.flowtune.utils.windowState
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.px
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.px
 import coil3.compose.AsyncImage
 import kotlinx.coroutines.launch
 import java.net.UnknownHostException

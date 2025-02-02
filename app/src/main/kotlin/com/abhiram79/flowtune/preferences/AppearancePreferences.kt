@@ -3,11 +3,11 @@ package com.abhiram79.flowtune.preferences
 import com.abhiram79.flowtune.GlobalPreferencesHolder
 import com.abhiram79.flowtune.preferences.OldPreferences.ColorPaletteMode
 import com.abhiram79.flowtune.preferences.OldPreferences.ColorPaletteName
-import app.vitune.core.ui.BuiltInFontFamily
-import app.vitune.core.ui.ColorMode
-import app.vitune.core.ui.ColorSource
-import app.vitune.core.ui.Darkness
-import app.vitune.core.ui.ThumbnailRoundness
+import com.abhiram79.flowtune.core.ui.BuiltInFontFamily
+import com.abhiram79.flowtune.core.ui.ColorMode
+import com.abhiram79.flowtune.core.ui.ColorSource
+import com.abhiram79.flowtune.core.ui.Darkness
+import com.abhiram79.flowtune.core.ui.ThumbnailRoundness
 
 object AppearancePreferences : GlobalPreferencesHolder() {
     var colorSource by enum(

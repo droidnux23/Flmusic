@@ -22,8 +22,8 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextOverflow
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.utils.semiBold
-import app.vitune.core.ui.Appearance
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.Appearance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 
 @Composable
 fun ColumnScope.TextField(

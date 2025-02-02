@@ -1,13 +1,13 @@
-package app.vitune.providers.innertube.requests
+package com.abhiram79.flowtune.providers.innertube.requests
 
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.BrowseResponse
-import app.vitune.providers.innertube.models.MusicTwoRowItemRenderer
-import app.vitune.providers.innertube.models.bodies.BrowseBody
-import app.vitune.providers.innertube.models.oddElements
-import app.vitune.providers.innertube.models.splitBySeparator
-import app.vitune.providers.innertube.utils.from
-import app.vitune.providers.utils.runCatchingCancellable
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.BrowseResponse
+import com.abhiram79.flowtune.providers.innertube.models.MusicTwoRowItemRenderer
+import com.abhiram79.flowtune.providers.innertube.models.bodies.BrowseBody
+import com.abhiram79.flowtune.providers.innertube.models.oddElements
+import com.abhiram79.flowtune.providers.innertube.models.splitBySeparator
+import com.abhiram79.flowtune.providers.innertube.utils.from
+import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.call.body
 import io.ktor.client.request.post
 import io.ktor.client.request.setBody

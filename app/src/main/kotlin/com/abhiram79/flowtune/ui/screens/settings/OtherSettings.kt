@@ -53,8 +53,8 @@ import com.abhiram79.flowtune.utils.intent
 import com.abhiram79.flowtune.utils.isIgnoringBatteryOptimizations
 import com.abhiram79.flowtune.utils.smoothScrollToBottom
 import com.abhiram79.flowtune.utils.toast
-import app.vitune.core.ui.utils.isAtLeastAndroid12
-import app.vitune.core.ui.utils.isAtLeastAndroid6
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid12
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid6
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.launch

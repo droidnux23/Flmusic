@@ -29,9 +29,9 @@ import com.abhiram79.flowtune.ui.components.themed.FloatingActionsContainerWithS
 import com.abhiram79.flowtune.utils.center
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.persist.persist
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.utils.plus
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.utils.plus
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

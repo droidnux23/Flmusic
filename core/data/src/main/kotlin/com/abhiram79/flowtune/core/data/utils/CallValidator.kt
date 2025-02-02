@@ -1,4 +1,4 @@
-package app.vitune.core.data.utils
+package com.abhiram79.flowtune.core.data.utils
 
 import android.Manifest
 import android.content.Context

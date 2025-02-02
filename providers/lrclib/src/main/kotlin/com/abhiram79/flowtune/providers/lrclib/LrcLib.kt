@@ -1,8 +1,8 @@
-package app.vitune.providers.lrclib
+package com.abhiram79.flowtune.providers.lrclib
 
-import app.vitune.providers.lrclib.models.Track
-import app.vitune.providers.lrclib.models.bestMatchingFor
-import app.vitune.providers.utils.runCatchingCancellable
+import com.abhiram79.flowtune.providers.lrclib.models.Track
+import com.abhiram79.flowtune.providers.lrclib.models.bestMatchingFor
+import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.cio.CIO

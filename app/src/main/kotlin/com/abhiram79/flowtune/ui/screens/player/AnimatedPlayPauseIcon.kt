@@ -18,7 +18,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.core.graphics.BlendModeColorFilterCompat
 import androidx.core.graphics.BlendModeCompat
 import com.abhiram79.flowtune.R
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 import com.airbnb.lottie.LottieComposition
 import com.airbnb.lottie.LottieProperty
 import com.airbnb.lottie.compose.LottieAnimation

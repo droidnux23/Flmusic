@@ -31,12 +31,12 @@ import com.abhiram79.flowtune.ui.items.SongItemPlaceholder
 import com.abhiram79.flowtune.ui.screens.home.MoodItem
 import com.abhiram79.flowtune.utils.semiBold
 import com.abhiram79.flowtune.persist.persist
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.bodies.BrowseBody
-import app.vitune.providers.innertube.requests.BrowseResult
-import app.vitune.providers.innertube.requests.browse
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.bodies.BrowseBody
+import com.abhiram79.flowtune.providers.innertube.requests.BrowseResult
+import com.abhiram79.flowtune.providers.innertube.requests.browse
 import com.valentinilk.shimmer.shimmer
 import kotlinx.collections.immutable.toImmutableList
 

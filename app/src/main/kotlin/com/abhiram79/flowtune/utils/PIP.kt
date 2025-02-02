@@ -36,9 +36,9 @@ import androidx.core.graphics.toRect
 import com.abhiram79.flowtune.R
 import com.abhiram79.flowtune.preferences.AppearancePreferences
 import com.abhiram79.flowtune.persist.findActivityNullable
-import app.vitune.core.ui.utils.isAtLeastAndroid12
-import app.vitune.core.ui.utils.isAtLeastAndroid7
-import app.vitune.core.ui.utils.isAtLeastAndroid8
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid12
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid7
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid8
 
 private fun logError(throwable: Throwable) = Log.e("PipHandler", "An error occurred", throwable)
 

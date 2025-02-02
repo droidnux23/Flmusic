@@ -1,4 +1,4 @@
-package app.vitune.providers.translate
+package com.abhiram79.flowtune.providers.translate
 
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO

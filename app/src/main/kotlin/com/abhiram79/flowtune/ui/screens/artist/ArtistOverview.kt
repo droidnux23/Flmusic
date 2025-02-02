@@ -45,11 +45,11 @@ import com.abhiram79.flowtune.utils.medium
 import com.abhiram79.flowtune.utils.playingSong
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.utils.semiBold
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.isLandscape
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.NavigationEndpoint
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.isLandscape
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.NavigationEndpoint
 
 private val sectionTextModifier = Modifier
     .padding(horizontal = 16.dp)

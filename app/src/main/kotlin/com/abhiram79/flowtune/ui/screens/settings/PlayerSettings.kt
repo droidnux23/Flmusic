@@ -25,7 +25,7 @@ import com.abhiram79.flowtune.service.PlayerService
 import com.abhiram79.flowtune.ui.components.themed.SecondaryTextButton
 import com.abhiram79.flowtune.ui.screens.Route
 import com.abhiram79.flowtune.utils.rememberEqualizerLauncher
-import app.vitune.core.ui.utils.isAtLeastAndroid6
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid6
 
 @OptIn(UnstableApi::class)
 @Route

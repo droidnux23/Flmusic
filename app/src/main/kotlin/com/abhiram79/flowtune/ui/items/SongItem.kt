@@ -36,11 +36,11 @@ import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.utils.semiBold
 import com.abhiram79.flowtune.utils.thumbnail
 import com.abhiram79.flowtune.utils.windowState
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.shimmer
-import app.vitune.core.ui.utils.px
-import app.vitune.core.ui.utils.songBundle
-import app.vitune.providers.innertube.Innertube
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.shimmer
+import com.abhiram79.flowtune.core.ui.utils.px
+import com.abhiram79.flowtune.core.ui.utils.songBundle
+import com.abhiram79.flowtune.providers.innertube.Innertube
 import coil3.compose.AsyncImage
 
 @Composable

@@ -47,8 +47,8 @@ import com.abhiram79.flowtune.utils.center
 import com.abhiram79.flowtune.utils.drawCircle
 import com.abhiram79.flowtune.utils.medium
 import com.abhiram79.flowtune.utils.semiBold
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.roundedShape
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.roundedShape
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.delay
 

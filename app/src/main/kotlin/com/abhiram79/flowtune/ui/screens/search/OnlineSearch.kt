@@ -59,10 +59,10 @@ import com.abhiram79.flowtune.utils.medium
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.persist.persist
 import com.abhiram79.flowtune.persist.persistList
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.bodies.SearchSuggestionsBody
-import app.vitune.providers.innertube.requests.searchSuggestions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.bodies.SearchSuggestionsBody
+import com.abhiram79.flowtune.providers.innertube.requests.searchSuggestions
 import io.ktor.http.Url
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.delay

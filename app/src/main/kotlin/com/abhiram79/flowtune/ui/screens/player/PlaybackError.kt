@@ -27,9 +27,9 @@ import com.abhiram79.flowtune.utils.center
 import com.abhiram79.flowtune.utils.color
 import com.abhiram79.flowtune.utils.isInPip
 import com.abhiram79.flowtune.utils.medium
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.onOverlay
-import app.vitune.core.ui.overlay
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.onOverlay
+import com.abhiram79.flowtune.core.ui.overlay
 
 @Composable
 fun PlaybackError(

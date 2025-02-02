@@ -24,7 +24,7 @@ import androidx.media3.common.Timeline
 import com.abhiram79.flowtune.LocalPlayerServiceBinder
 import com.abhiram79.flowtune.R
 import com.abhiram79.flowtune.service.PlayerService
-import app.vitune.core.ui.utils.EqualizerIntentBundleAccessor
+import com.abhiram79.flowtune.core.ui.utils.EqualizerIntentBundleAccessor
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlin.time.Duration

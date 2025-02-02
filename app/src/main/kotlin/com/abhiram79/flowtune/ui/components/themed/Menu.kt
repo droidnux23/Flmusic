@@ -28,7 +28,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.abhiram79.flowtune.utils.medium
 import com.abhiram79.flowtune.utils.secondary
-import app.vitune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
 
 @Composable
 inline fun Menu(

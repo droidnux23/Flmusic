@@ -20,8 +20,8 @@ import androidx.media3.exoplayer.offline.DownloadRequest
 import androidx.media3.exoplayer.offline.DownloadService
 import androidx.media3.exoplayer.offline.DownloadService.sendAddDownload
 import com.abhiram79.flowtune.BuildConfig
-import app.vitune.core.ui.utils.isAtLeastAndroid11
-import app.vitune.core.ui.utils.isAtLeastAndroid6
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid11
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid6
 
 inline fun <reified T> Context.intent(): Intent = Intent(this@Context, T::class.java)
 

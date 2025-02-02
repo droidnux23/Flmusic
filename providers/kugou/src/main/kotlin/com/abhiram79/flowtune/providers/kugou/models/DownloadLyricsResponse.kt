@@ -1,4 +1,4 @@
-package app.vitune.providers.kugou.models
+package com.abhiram79.flowtune.providers.kugou.models
 
 import kotlinx.serialization.Serializable
 

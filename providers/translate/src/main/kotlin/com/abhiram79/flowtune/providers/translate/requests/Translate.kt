@@ -1,7 +1,7 @@
-package app.vitune.providers.translate.requests
+package com.abhiram79.flowtune.providers.translate.requests
 
-import app.vitune.providers.translate.Translate
-import app.vitune.providers.translate.models.Language
+import com.abhiram79.flowtune.providers.translate.Translate
+import com.abhiram79.flowtune.providers.translate.models.Language
 import io.ktor.client.request.get
 import io.ktor.client.request.parameter
 import io.ktor.client.statement.bodyAsText

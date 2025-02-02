@@ -1,10 +1,10 @@
 package com.abhiram79.flowtune.utils
 
 import androidx.media3.common.MediaItem
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.bodies.ContinuationBody
-import app.vitune.providers.innertube.models.bodies.NextBody
-import app.vitune.providers.innertube.requests.nextPage
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.bodies.ContinuationBody
+import com.abhiram79.flowtune.providers.innertube.models.bodies.NextBody
+import com.abhiram79.flowtune.providers.innertube.requests.nextPage
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

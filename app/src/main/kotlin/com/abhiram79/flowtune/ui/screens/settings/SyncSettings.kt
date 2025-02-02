@@ -48,9 +48,9 @@ import com.abhiram79.flowtune.utils.get
 import com.abhiram79.flowtune.utils.semiBold
 import com.abhiram79.flowtune.utils.upsert
 import com.abhiram79.flowtune.persist.persistList
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.providers.piped.Piped
-import app.vitune.providers.piped.models.Instance
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.providers.piped.Piped
+import com.abhiram79.flowtune.providers.piped.models.Instance
 import io.ktor.http.Url
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.launch

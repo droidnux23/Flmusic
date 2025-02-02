@@ -1,7 +1,7 @@
-package app.vitune.providers.innertube.utils
+package com.abhiram79.flowtune.providers.innertube.utils
 
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.MusicTwoRowItemRenderer
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.MusicTwoRowItemRenderer
 
 fun Innertube.AlbumItem.Companion.from(renderer: MusicTwoRowItemRenderer) = Innertube.AlbumItem(
     info = renderer

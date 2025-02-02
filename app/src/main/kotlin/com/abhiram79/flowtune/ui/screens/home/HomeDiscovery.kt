@@ -69,13 +69,13 @@ import com.abhiram79.flowtune.utils.rememberSnapLayoutInfo
 import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.utils.semiBold
 import com.abhiram79.flowtune.persist.persist
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.shimmer
-import app.vitune.core.ui.utils.isLandscape
-import app.vitune.providers.innertube.Innertube
-import app.vitune.providers.innertube.models.NavigationEndpoint
-import app.vitune.providers.innertube.requests.discoverPage
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.shimmer
+import com.abhiram79.flowtune.core.ui.utils.isLandscape
+import com.abhiram79.flowtune.providers.innertube.Innertube
+import com.abhiram79.flowtune.providers.innertube.models.NavigationEndpoint
+import com.abhiram79.flowtune.providers.innertube.requests.discoverPage
 
 // TODO: a lot of duplicate code all around the codebase, especially for discover
 

@@ -57,8 +57,8 @@ import com.abhiram79.flowtune.preferences.PlayerPreferences
 import com.abhiram79.flowtune.service.PlayerService
 import com.abhiram79.flowtune.utils.formatAsDuration
 import com.abhiram79.flowtune.utils.semiBold
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.utils.roundedShape
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.utils.roundedShape
 import kotlin.math.PI
 import kotlin.math.sin
 

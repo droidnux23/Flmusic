@@ -14,11 +14,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.dp
 import com.abhiram79.flowtune.utils.thumbnail
-import app.vitune.core.ui.Dimensions
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.shimmer
-import app.vitune.core.ui.utils.isLandscape
-import app.vitune.core.ui.utils.px
+import com.abhiram79.flowtune.core.ui.Dimensions
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.shimmer
+import com.abhiram79.flowtune.core.ui.utils.isLandscape
+import com.abhiram79.flowtune.core.ui.utils.px
 import coil3.compose.AsyncImage
 import com.valentinilk.shimmer.shimmer
 

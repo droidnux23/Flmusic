@@ -53,9 +53,9 @@ import com.abhiram79.flowtune.utils.logcat
 import com.abhiram79.flowtune.utils.semiBold
 import com.abhiram79.flowtune.utils.smoothScrollToTop
 import com.abhiram79.flowtune.routing.RouteHandler
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.surface
-import app.vitune.core.ui.utils.ActivityIntentBundleAccessor
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.surface
+import com.abhiram79.flowtune.core.ui.utils.ActivityIntentBundleAccessor
 import kotlinx.coroutines.delay
 
 @Route

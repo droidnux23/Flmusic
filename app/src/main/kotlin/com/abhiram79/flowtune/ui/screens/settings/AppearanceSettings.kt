@@ -18,14 +18,14 @@ import com.abhiram79.flowtune.ui.screens.Route
 import com.abhiram79.flowtune.utils.currentLocale
 import com.abhiram79.flowtune.utils.findActivity
 import com.abhiram79.flowtune.utils.startLanguagePicker
-import app.vitune.core.ui.BuiltInFontFamily
-import app.vitune.core.ui.ColorMode
-import app.vitune.core.ui.ColorSource
-import app.vitune.core.ui.Darkness
-import app.vitune.core.ui.LocalAppearance
-import app.vitune.core.ui.ThumbnailRoundness
-import app.vitune.core.ui.googleFontsAvailable
-import app.vitune.core.ui.utils.isAtLeastAndroid13
+import com.abhiram79.flowtune.core.ui.BuiltInFontFamily
+import com.abhiram79.flowtune.core.ui.ColorMode
+import com.abhiram79.flowtune.core.ui.ColorSource
+import com.abhiram79.flowtune.core.ui.Darkness
+import com.abhiram79.flowtune.core.ui.LocalAppearance
+import com.abhiram79.flowtune.core.ui.ThumbnailRoundness
+import com.abhiram79.flowtune.core.ui.googleFontsAvailable
+import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid13
 
 @Route
 @Composable
