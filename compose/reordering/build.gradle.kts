@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.abhiram79.flowtune.reordering"
+    namespace = "com.abhiram79.flowtune.compose.reordering"
     compileSdk = 35
 
     defaultConfig {

@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.abhiram79.flowtune.routing"
+    namespace = "com.abhiram79.flowtune.compose.routing"
     compileSdk = 35
 
     defaultConfig {

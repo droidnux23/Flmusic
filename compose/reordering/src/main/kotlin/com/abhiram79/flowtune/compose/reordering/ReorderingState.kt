@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.reordering
+package com.abhiram79.flowtune.compose.reordering
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.AnimationVector1D

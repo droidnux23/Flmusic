@@ -1,6 +1,6 @@
 @file:Suppress("UNCHECKED_CAST")
 
-package com.abhiram79.flowtune.routing
+package com.abhiram79.flowtune.compose.routing
 
 import android.os.Parcelable
 import androidx.compose.runtime.Composable
