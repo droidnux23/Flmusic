@@ -1,4 +1,4 @@
-name: Build CI
+name: Build Apks
 
 on: push
 
@@ -36,3 +36,4 @@ jobs:
       with:
           name: app-debug.apk
           path: app/build/outputs/apk/*/*.apk
+         
