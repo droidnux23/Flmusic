@@ -142,7 +142,7 @@ fun DatabaseSettings() = with(DataPreferences) {
                     val dateFormat = SimpleDateFormat("yyyyMMddHHmmss", Locale.getDefault())
 
                     try {
-                        backupLauncher.launch("ViTune_backup_${dateFormat.format(Date())}.db")
+                        backupLauncher.launch("Flowtune_backup_${dateFormat.format(Date())}.db")
                     } catch (e: ActivityNotFoundException) {
                         context.toast(context.getString(R.string.no_file_chooser_installed))
                     }
