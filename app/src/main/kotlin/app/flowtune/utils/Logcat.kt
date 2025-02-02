@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.os.Parcel
 import android.os.Parcelable
@@ -8,7 +8,7 @@ import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.saveable.rememberSaveable
-import com.abhiram79.flowtune.core.ui.utils.stateListSaver
+import app.flowtune.core.ui.utils.stateListSaver
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.Dispatchers

@@ -1,6 +1,6 @@
 @file:Suppress("TooManyFunctions")
 
-package com.abhiram79.flowtune.ui.screens.settings
+package app.flowtune.ui.screens.settings
 
 import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
@@ -37,22 +37,22 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.text
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.ui.components.themed.Header
-import com.abhiram79.flowtune.ui.components.themed.NumberFieldDialog
-import com.abhiram79.flowtune.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.ui.components.themed.Slider
-import com.abhiram79.flowtune.ui.components.themed.Switch
-import com.abhiram79.flowtune.ui.components.themed.ValueSelectorDialog
-import com.abhiram79.flowtune.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.utils.color
-import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.persist.PersistMapCleanup
-import com.abhiram79.flowtune.routing.RouteHandler
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.R
+import app.flowtune.ui.components.themed.Header
+import app.flowtune.ui.components.themed.NumberFieldDialog
+import app.flowtune.ui.components.themed.Scaffold
+import app.flowtune.ui.components.themed.Slider
+import app.flowtune.ui.components.themed.Switch
+import app.flowtune.ui.components.themed.ValueSelectorDialog
+import app.flowtune.ui.screens.GlobalRoutes
+import app.flowtune.ui.screens.Route
+import app.flowtune.utils.color
+import app.flowtune.utils.secondary
+import app.flowtune.utils.semiBold
+import app.flowtune.persist.PersistMapCleanup
+import app.flowtune.routing.RouteHandler
+import app.flowtune.core.ui.LocalAppearance
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
@@ -8,7 +8,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.LocalAppearance
 
 fun TextStyle.style(style: FontStyle) = copy(fontStyle = style)
 fun TextStyle.weight(weight: FontWeight) = copy(fontWeight = weight)

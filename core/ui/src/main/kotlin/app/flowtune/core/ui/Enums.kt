@@ -1,8 +1,8 @@
-package com.abhiram79.flowtune.core.ui
+package app.flowtune.core.ui
 
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.core.ui.utils.roundedShape
+import app.flowtune.core.ui.utils.roundedShape
 
 enum class ThumbnailRoundness(val dp: Dp) {
     None(0.dp),

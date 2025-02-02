@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -13,12 +13,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.utils.thumbnail
-import com.abhiram79.flowtune.core.ui.Dimensions
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.shimmer
-import com.abhiram79.flowtune.core.ui.utils.isLandscape
-import com.abhiram79.flowtune.core.ui.utils.px
+import app.flowtune.utils.thumbnail
+import app.flowtune.core.ui.Dimensions
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.shimmer
+import app.flowtune.core.ui.utils.isLandscape
+import app.flowtune.core.ui.utils.px
 import coil3.compose.AsyncImage
 import com.valentinilk.shimmer.shimmer
 

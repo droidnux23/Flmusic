@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.core.ui
+package app.flowtune.core.ui
 
 import android.os.Parcel
 import android.os.Parcelable

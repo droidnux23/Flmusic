@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.player
+package app.flowtune.ui.screens.player
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
@@ -23,13 +23,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.utils.center
-import com.abhiram79.flowtune.utils.color
-import com.abhiram79.flowtune.utils.isInPip
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.onOverlay
-import com.abhiram79.flowtune.core.ui.overlay
+import app.flowtune.utils.center
+import app.flowtune.utils.color
+import app.flowtune.utils.isInPip
+import app.flowtune.utils.medium
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.onOverlay
+import app.flowtune.core.ui.overlay
 
 @Composable
 fun PlaybackError(

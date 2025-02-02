@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.core.data.utils
+package app.flowtune.core.data.utils
 
 import android.net.Uri
 import kotlinx.datetime.Clock

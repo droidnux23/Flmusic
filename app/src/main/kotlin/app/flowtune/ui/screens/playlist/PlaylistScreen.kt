@@ -1,13 +1,13 @@
-package com.abhiram79.flowtune.ui.screens.playlist
+package app.flowtune.ui.screens.playlist
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.persist.PersistMapCleanup
-import com.abhiram79.flowtune.routing.RouteHandler
+import app.flowtune.R
+import app.flowtune.ui.components.themed.Scaffold
+import app.flowtune.ui.screens.GlobalRoutes
+import app.flowtune.ui.screens.Route
+import app.flowtune.persist.PersistMapCleanup
+import app.flowtune.routing.RouteHandler
 
 @Route
 @Composable

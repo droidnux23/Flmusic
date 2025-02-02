@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -14,8 +14,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.surface
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.surface
 
 @Composable
 fun SecondaryButton(

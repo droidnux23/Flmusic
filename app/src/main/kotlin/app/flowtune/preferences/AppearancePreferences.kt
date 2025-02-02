@@ -1,13 +1,13 @@
-package com.abhiram79.flowtune.preferences
+package app.flowtune.preferences
 
-import com.abhiram79.flowtune.GlobalPreferencesHolder
-import com.abhiram79.flowtune.preferences.OldPreferences.ColorPaletteMode
-import com.abhiram79.flowtune.preferences.OldPreferences.ColorPaletteName
-import com.abhiram79.flowtune.core.ui.BuiltInFontFamily
-import com.abhiram79.flowtune.core.ui.ColorMode
-import com.abhiram79.flowtune.core.ui.ColorSource
-import com.abhiram79.flowtune.core.ui.Darkness
-import com.abhiram79.flowtune.core.ui.ThumbnailRoundness
+import app.flowtune.GlobalPreferencesHolder
+import app.flowtune.preferences.OldPreferences.ColorPaletteMode
+import app.flowtune.preferences.OldPreferences.ColorPaletteName
+import app.flowtune.core.ui.BuiltInFontFamily
+import app.flowtune.core.ui.ColorMode
+import app.flowtune.core.ui.ColorSource
+import app.flowtune.core.ui.Darkness
+import app.flowtune.core.ui.ThumbnailRoundness
 
 object AppearancePreferences : GlobalPreferencesHolder() {
     var colorSource by enum(

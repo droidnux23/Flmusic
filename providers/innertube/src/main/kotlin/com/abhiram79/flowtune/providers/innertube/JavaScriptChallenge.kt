@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.providers.innertube
+package app.flowtune.providers.innertube
 
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock

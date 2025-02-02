@@ -1,11 +1,11 @@
-package com.abhiram79.flowtune.providers.innertube
+package app.flowtune.providers.innertube
 
-import com.abhiram79.flowtune.providers.innertube.models.Context
-import com.abhiram79.flowtune.providers.innertube.models.MusicNavigationButtonRenderer
-import com.abhiram79.flowtune.providers.innertube.models.NavigationEndpoint
-import com.abhiram79.flowtune.providers.innertube.models.Runs
-import com.abhiram79.flowtune.providers.innertube.models.Thumbnail
-import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
+import app.flowtune.providers.innertube.models.Context
+import app.flowtune.providers.innertube.models.MusicNavigationButtonRenderer
+import app.flowtune.providers.innertube.models.NavigationEndpoint
+import app.flowtune.providers.innertube.models.Runs
+import app.flowtune.providers.innertube.models.Thumbnail
+import app.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.okhttp.OkHttp
 import io.ktor.client.plugins.HttpResponseValidator

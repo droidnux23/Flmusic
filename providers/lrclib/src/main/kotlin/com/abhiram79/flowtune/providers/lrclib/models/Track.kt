@@ -1,7 +1,7 @@
-package com.abhiram79.flowtune.providers.lrclib.models
+package app.flowtune.providers.lrclib.models
 
-import com.abhiram79.flowtune.providers.lrclib.LrcParser
-import com.abhiram79.flowtune.providers.lrclib.toLrcFile
+import app.flowtune.providers.lrclib.LrcParser
+import app.flowtune.providers.lrclib.toLrcFile
 import kotlinx.serialization.Serializable
 import kotlin.math.abs
 import kotlin.time.Duration

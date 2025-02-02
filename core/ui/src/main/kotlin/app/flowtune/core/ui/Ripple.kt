@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.core.ui
+package app.flowtune.core.ui
 
 import androidx.compose.material.ripple.RippleAlpha
 import androidx.compose.material3.ExperimentalMaterial3Api

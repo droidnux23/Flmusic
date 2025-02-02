@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.BlendMode

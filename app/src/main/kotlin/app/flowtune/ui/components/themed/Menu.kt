@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -26,9 +26,9 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.utils.medium
+import app.flowtune.utils.secondary
+import app.flowtune.core.ui.LocalAppearance
 
 @Composable
 inline fun Menu(

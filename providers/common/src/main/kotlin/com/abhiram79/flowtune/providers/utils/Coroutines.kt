@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.providers.utils
+package app.flowtune.providers.utils
 
 import kotlinx.coroutines.CancellationException
 

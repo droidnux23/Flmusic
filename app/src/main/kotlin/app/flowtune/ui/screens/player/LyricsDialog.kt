@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.player
+package app.flowtune.ui.screens.player
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -21,19 +21,19 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.LocalPlayerServiceBinder
-import com.abhiram79.flowtune.preferences.PlayerPreferences
-import com.abhiram79.flowtune.ui.modifiers.PinchDirection
-import com.abhiram79.flowtune.ui.modifiers.onSwipe
-import com.abhiram79.flowtune.ui.modifiers.pinchToToggle
-import com.abhiram79.flowtune.utils.FullScreenState
-import com.abhiram79.flowtune.utils.forceSeekToNext
-import com.abhiram79.flowtune.utils.forceSeekToPrevious
-import com.abhiram79.flowtune.utils.thumbnail
-import com.abhiram79.flowtune.utils.windowState
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.utils.px
+import app.flowtune.Database
+import app.flowtune.LocalPlayerServiceBinder
+import app.flowtune.preferences.PlayerPreferences
+import app.flowtune.ui.modifiers.PinchDirection
+import app.flowtune.ui.modifiers.onSwipe
+import app.flowtune.ui.modifiers.pinchToToggle
+import app.flowtune.utils.FullScreenState
+import app.flowtune.utils.forceSeekToNext
+import app.flowtune.utils.forceSeekToPrevious
+import app.flowtune.utils.thumbnail
+import app.flowtune.utils.windowState
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.utils.px
 import coil3.compose.AsyncImage
 
 @Composable

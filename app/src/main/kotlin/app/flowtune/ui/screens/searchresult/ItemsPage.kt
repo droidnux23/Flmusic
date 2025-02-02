@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.searchresult
+package app.flowtune.ui.screens.searchresult
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.WindowInsetsSides
@@ -22,16 +22,16 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.ui.components.ShimmerHost
-import com.abhiram79.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
-import com.abhiram79.flowtune.utils.center
-import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.persist.persist
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.utils.plus
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.R
+import app.flowtune.ui.components.ShimmerHost
+import app.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
+import app.flowtune.utils.center
+import app.flowtune.utils.secondary
+import app.flowtune.persist.persist
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.utils.plus
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

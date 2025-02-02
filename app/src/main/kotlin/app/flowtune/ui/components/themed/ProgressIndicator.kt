@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.material3.ProgressIndicatorDefaults
@@ -8,7 +8,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.StrokeCap
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.LocalAppearance
 
 @Composable
 fun CircularProgressIndicator(

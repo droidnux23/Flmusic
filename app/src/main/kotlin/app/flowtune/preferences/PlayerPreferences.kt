@@ -1,10 +1,10 @@
-package com.abhiram79.flowtune.preferences
+package app.flowtune.preferences
 
 import android.media.audiofx.PresetReverb
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.abhiram79.flowtune.GlobalPreferencesHolder
-import com.abhiram79.flowtune.R
+import app.flowtune.GlobalPreferencesHolder
+import app.flowtune.R
 
 object PlayerPreferences : GlobalPreferencesHolder() {
     val isInvincibilityEnabledProperty = boolean(false)

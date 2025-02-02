@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.compose.persist
+package app.flowtune.compose.persist
 
 import android.app.Activity
 import android.content.Context

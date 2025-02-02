@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay

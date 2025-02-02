@@ -1,7 +1,7 @@
-package com.abhiram79.flowtune.providers.github.models
+package app.flowtune.providers.github.models
 
-import com.abhiram79.flowtune.providers.utils.SerializableIso8601Date
-import com.abhiram79.flowtune.providers.utils.SerializableUrl
+import app.flowtune.providers.utils.SerializableIso8601Date
+import app.flowtune.providers.utils.SerializableUrl
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

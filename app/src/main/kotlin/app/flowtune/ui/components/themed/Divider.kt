@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -11,7 +11,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.LocalAppearance
 
 /**
  * A simple horizontal divider, derived from Material Design

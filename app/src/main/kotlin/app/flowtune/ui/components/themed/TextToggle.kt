@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -16,10 +16,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.utils.roundedShape
+import app.flowtune.R
+import app.flowtune.utils.medium
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.utils.roundedShape
 
 @Composable
 fun TextToggle(

@@ -1,12 +1,12 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.annotation.IntRange
 import androidx.compose.material3.SliderDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.surface
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.surface
 
 @Composable
 fun Slider(

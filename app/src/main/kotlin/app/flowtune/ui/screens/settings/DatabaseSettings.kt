@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.settings
+package app.flowtune.ui.screens.settings
 
 import android.content.ActivityNotFoundException
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -11,17 +11,17 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.internal
-import com.abhiram79.flowtune.path
-import com.abhiram79.flowtune.preferences.DataPreferences
-import com.abhiram79.flowtune.query
-import com.abhiram79.flowtune.service.PlayerService
-import com.abhiram79.flowtune.transaction
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.utils.intent
-import com.abhiram79.flowtune.utils.toast
+import app.flowtune.Database
+import app.flowtune.R
+import app.flowtune.internal
+import app.flowtune.path
+import app.flowtune.preferences.DataPreferences
+import app.flowtune.query
+import app.flowtune.service.PlayerService
+import app.flowtune.transaction
+import app.flowtune.ui.screens.Route
+import app.flowtune.utils.intent
+import app.flowtune.utils.toast
 import kotlinx.coroutines.flow.distinctUntilChanged
 import java.io.FileInputStream
 import java.io.FileOutputStream

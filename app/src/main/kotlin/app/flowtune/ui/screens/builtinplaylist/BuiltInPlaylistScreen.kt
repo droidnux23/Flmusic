@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.builtinplaylist
+package app.flowtune.ui.screens.builtinplaylist
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
@@ -9,15 +9,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
 import androidx.compose.ui.res.stringResource
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.preferences.DataPreferences
-import com.abhiram79.flowtune.preferences.UIStatePreferences
-import com.abhiram79.flowtune.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.persist.PersistMapCleanup
-import com.abhiram79.flowtune.routing.RouteHandler
-import com.abhiram79.flowtune.core.data.enums.BuiltInPlaylist
+import app.flowtune.R
+import app.flowtune.preferences.DataPreferences
+import app.flowtune.preferences.UIStatePreferences
+import app.flowtune.ui.components.themed.Scaffold
+import app.flowtune.ui.screens.GlobalRoutes
+import app.flowtune.ui.screens.Route
+import app.flowtune.persist.PersistMapCleanup
+import app.flowtune.routing.RouteHandler
+import app.flowtune.core.data.enums.BuiltInPlaylist
 
 object BuiltInPlaylistScreen {
     internal const val KEY = "builtinplaylist"

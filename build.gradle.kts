@@ -18,7 +18,7 @@ val clean by tasks.registering(Delete::class) {
 }
 
 allprojects {
-    group = "com.abhiram79.flowtune"
+    group = "app.flowtune"
     version = "1.1.3"
 
     apply(plugin = "io.gitlab.arturbosch.detekt")

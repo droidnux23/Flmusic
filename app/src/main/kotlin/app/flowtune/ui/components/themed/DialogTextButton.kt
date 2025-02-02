@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -9,11 +9,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.utils.disabled
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.primary
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.utils.roundedShape
+import app.flowtune.utils.disabled
+import app.flowtune.utils.medium
+import app.flowtune.utils.primary
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.utils.roundedShape
 
 @Composable
 fun DialogTextButton(

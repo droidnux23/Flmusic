@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import android.os.Parcelable
 import androidx.annotation.DrawableRes
@@ -50,16 +50,16 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEachIndexed
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.ui.screens.settings.SwitchSettingsEntry
-import com.abhiram79.flowtune.utils.center
-import com.abhiram79.flowtune.utils.color
-import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.core.ui.Dimensions
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.utils.isLandscape
-import com.abhiram79.flowtune.core.ui.utils.roundedShape
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.R
+import app.flowtune.ui.screens.settings.SwitchSettingsEntry
+import app.flowtune.utils.center
+import app.flowtune.utils.color
+import app.flowtune.utils.semiBold
+import app.flowtune.core.ui.Dimensions
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.utils.isLandscape
+import app.flowtune.core.ui.utils.roundedShape
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.parcelize.IgnoredOnParcel

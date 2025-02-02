@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.core.ui
+package app.flowtune.core.ui
 
 import android.graphics.Bitmap
 import android.os.Parcel

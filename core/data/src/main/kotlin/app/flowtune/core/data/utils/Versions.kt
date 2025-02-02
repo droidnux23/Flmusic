@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.core.data.utils
+package app.flowtune.core.data.utils
 
 inline val String.version get() = Version(
     removePrefix("v")

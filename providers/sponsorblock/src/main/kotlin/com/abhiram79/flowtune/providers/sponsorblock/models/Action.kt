@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.providers.sponsorblock.models
+package app.flowtune.providers.sponsorblock.models
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

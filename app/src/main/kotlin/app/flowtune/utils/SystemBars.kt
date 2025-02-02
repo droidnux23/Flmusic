@@ -1,11 +1,11 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import com.abhiram79.flowtune.persist.findActivityNullable
+import app.flowtune.persist.findActivityNullable
 
 @Composable
 fun FullScreenState(

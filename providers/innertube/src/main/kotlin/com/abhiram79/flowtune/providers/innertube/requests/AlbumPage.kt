@@ -1,8 +1,8 @@
-package com.abhiram79.flowtune.providers.innertube.requests
+package app.flowtune.providers.innertube.requests
 
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.models.NavigationEndpoint
-import com.abhiram79.flowtune.providers.innertube.models.bodies.BrowseBody
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.models.NavigationEndpoint
+import app.flowtune.providers.innertube.models.bodies.BrowseBody
 import io.ktor.http.Url
 
 suspend fun Innertube.albumPage(body: BrowseBody) =

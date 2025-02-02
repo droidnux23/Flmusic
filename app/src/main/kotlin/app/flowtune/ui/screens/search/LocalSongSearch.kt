@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.search
+package app.flowtune.ui.screens.search
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.combinedClickable
@@ -22,26 +22,26 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.style.TextAlign
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.LocalPlayerServiceBinder
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.models.Song
-import com.abhiram79.flowtune.ui.components.LocalMenuState
-import com.abhiram79.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
-import com.abhiram79.flowtune.ui.components.themed.Header
-import com.abhiram79.flowtune.ui.components.themed.InHistoryMediaItemMenu
-import com.abhiram79.flowtune.ui.components.themed.SecondaryTextButton
-import com.abhiram79.flowtune.ui.items.SongItem
-import com.abhiram79.flowtune.utils.align
-import com.abhiram79.flowtune.utils.asMediaItem
-import com.abhiram79.flowtune.utils.forcePlay
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.playingSong
-import com.abhiram79.flowtune.persist.persistList
-import com.abhiram79.flowtune.core.ui.Dimensions
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.providers.innertube.models.NavigationEndpoint
+import app.flowtune.Database
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.LocalPlayerServiceBinder
+import app.flowtune.R
+import app.flowtune.models.Song
+import app.flowtune.ui.components.LocalMenuState
+import app.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
+import app.flowtune.ui.components.themed.Header
+import app.flowtune.ui.components.themed.InHistoryMediaItemMenu
+import app.flowtune.ui.components.themed.SecondaryTextButton
+import app.flowtune.ui.items.SongItem
+import app.flowtune.utils.align
+import app.flowtune.utils.asMediaItem
+import app.flowtune.utils.forcePlay
+import app.flowtune.utils.medium
+import app.flowtune.utils.playingSong
+import app.flowtune.persist.persistList
+import app.flowtune.core.ui.Dimensions
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.providers.innertube.models.NavigationEndpoint
 import kotlinx.collections.immutable.toImmutableList
 
 @OptIn(ExperimentalFoundationApi::class)

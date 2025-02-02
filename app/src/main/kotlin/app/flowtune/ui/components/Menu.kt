@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components
+package app.flowtune.ui.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
@@ -29,8 +29,8 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.unit.times
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.ui.modifiers.pressable
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.ui.modifiers.pressable
 
 val LocalMenuState = staticCompositionLocalOf { MenuState() }
 

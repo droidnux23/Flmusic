@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.app.Service
 import android.content.BroadcastReceiver
@@ -9,7 +9,7 @@ import android.os.Binder
 import android.os.Handler
 import android.os.Looper
 import androidx.core.content.ContextCompat
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid12
+import app.flowtune.core.ui.utils.isAtLeastAndroid12
 
 // https://stackoverflow.com/q/53502244/16885569
 // I found four ways to make the system not kill the stopped foreground service: e.g. when

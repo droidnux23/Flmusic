@@ -1,6 +1,6 @@
-package com.abhiram79.flowtune.core.data.enums
+package app.flowtune.core.data.enums
 
-import com.abhiram79.flowtune.core.data.utils.mb
+import app.flowtune.core.data.utils.mb
 
 @Suppress("EnumEntryName", "unused")
 enum class ExoPlayerDiskCacheSize(val bytes: Long) {

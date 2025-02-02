@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.animation.animateColor
 import androidx.compose.animation.core.animateDp
@@ -14,8 +14,8 @@ import androidx.compose.ui.geometry.center
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.utils.drawCircle
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.utils.drawCircle
+import app.flowtune.core.ui.LocalAppearance
 
 @Composable
 fun Switch(

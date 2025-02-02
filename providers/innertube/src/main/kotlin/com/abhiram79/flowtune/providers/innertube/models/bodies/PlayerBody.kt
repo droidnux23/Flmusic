@@ -1,6 +1,6 @@
-package com.abhiram79.flowtune.providers.innertube.models.bodies
+package app.flowtune.providers.innertube.models.bodies
 
-import com.abhiram79.flowtune.providers.innertube.models.Context
+import app.flowtune.providers.innertube.models.Context
 import kotlinx.serialization.Serializable
 
 @Serializable

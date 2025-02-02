@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.core.ui
+package app.flowtune.core.ui
 
 import androidx.compose.runtime.saveable.SaverScope
 import androidx.compose.ui.graphics.Color

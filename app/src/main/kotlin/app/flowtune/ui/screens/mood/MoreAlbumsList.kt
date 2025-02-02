@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.mood
+package app.flowtune.ui.screens.mood
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -21,20 +21,20 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.ui.components.ShimmerHost
-import com.abhiram79.flowtune.ui.components.themed.Header
-import com.abhiram79.flowtune.ui.components.themed.HeaderPlaceholder
-import com.abhiram79.flowtune.ui.items.AlbumItem
-import com.abhiram79.flowtune.ui.items.AlbumItemPlaceholder
-import com.abhiram79.flowtune.persist.persist
-import com.abhiram79.flowtune.core.ui.Dimensions
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.models.bodies.BrowseBody
-import com.abhiram79.flowtune.providers.innertube.requests.BrowseResult
-import com.abhiram79.flowtune.providers.innertube.requests.browse
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.R
+import app.flowtune.ui.components.ShimmerHost
+import app.flowtune.ui.components.themed.Header
+import app.flowtune.ui.components.themed.HeaderPlaceholder
+import app.flowtune.ui.items.AlbumItem
+import app.flowtune.ui.items.AlbumItemPlaceholder
+import app.flowtune.persist.persist
+import app.flowtune.core.ui.Dimensions
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.models.bodies.BrowseBody
+import app.flowtune.providers.innertube.requests.BrowseResult
+import app.flowtune.providers.innertube.requests.browse
 import com.valentinilk.shimmer.shimmer
 import kotlinx.collections.immutable.toImmutableList
 

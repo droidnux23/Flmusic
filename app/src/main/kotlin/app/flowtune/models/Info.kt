@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.models
+package app.flowtune.models
 
 data class Info(
     val id: String,

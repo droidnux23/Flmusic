@@ -1,6 +1,6 @@
-package com.abhiram79.flowtune.preferences
+package app.flowtune.preferences
 
-import com.abhiram79.flowtune.GlobalPreferencesHolder
+import app.flowtune.GlobalPreferencesHolder
 
 internal object OldPreferences : GlobalPreferencesHolder() {
     val oldColorPaletteName by enum(ColorPaletteName.Dynamic, "colorPaletteName")

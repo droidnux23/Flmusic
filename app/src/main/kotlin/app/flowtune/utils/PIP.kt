@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.app.Activity
 import android.app.PictureInPictureParams
@@ -33,12 +33,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.core.app.OnPictureInPictureModeChangedProvider
 import androidx.core.app.PictureInPictureModeChangedInfo
 import androidx.core.graphics.toRect
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.preferences.AppearancePreferences
-import com.abhiram79.flowtune.persist.findActivityNullable
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid12
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid7
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid8
+import app.flowtune.R
+import app.flowtune.preferences.AppearancePreferences
+import app.flowtune.persist.findActivityNullable
+import app.flowtune.core.ui.utils.isAtLeastAndroid12
+import app.flowtune.core.ui.utils.isAtLeastAndroid7
+import app.flowtune.core.ui.utils.isAtLeastAndroid8
 
 private fun logError(throwable: Throwable) = Log.e("PipHandler", "An error occurred", throwable)
 

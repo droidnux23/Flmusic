@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.items
+package app.flowtune.ui.items
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -12,7 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.core.ui.Dimensions
+import app.flowtune.core.ui.Dimensions
 
 @Composable
 inline fun ItemContainer(

@@ -1,13 +1,13 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.reordering.ReorderingState
-import com.abhiram79.flowtune.reordering.reorder
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.R
+import app.flowtune.reordering.ReorderingState
+import app.flowtune.reordering.reorder
+import app.flowtune.core.ui.LocalAppearance
 
 @Composable
 fun ReorderHandle(

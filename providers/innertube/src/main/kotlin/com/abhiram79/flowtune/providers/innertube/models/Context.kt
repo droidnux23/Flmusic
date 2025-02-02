@@ -1,7 +1,7 @@
-package com.abhiram79.flowtune.providers.innertube.models
+package app.flowtune.providers.innertube.models
 
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.json
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.json
 import io.ktor.client.request.get
 import io.ktor.client.request.header
 import io.ktor.client.request.headers

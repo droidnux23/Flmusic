@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.core.ui.utils
+package app.flowtune.core.ui.utils
 
 import android.annotation.SuppressLint
 import android.app.SearchManager

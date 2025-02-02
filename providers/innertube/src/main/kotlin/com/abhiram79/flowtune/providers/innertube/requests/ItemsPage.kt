@@ -1,15 +1,15 @@
-package com.abhiram79.flowtune.providers.innertube.requests
+package app.flowtune.providers.innertube.requests
 
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.models.BrowseResponse
-import com.abhiram79.flowtune.providers.innertube.models.ContinuationResponse
-import com.abhiram79.flowtune.providers.innertube.models.GridRenderer
-import com.abhiram79.flowtune.providers.innertube.models.MusicResponsiveListItemRenderer
-import com.abhiram79.flowtune.providers.innertube.models.MusicShelfRenderer
-import com.abhiram79.flowtune.providers.innertube.models.MusicTwoRowItemRenderer
-import com.abhiram79.flowtune.providers.innertube.models.bodies.BrowseBody
-import com.abhiram79.flowtune.providers.innertube.models.bodies.ContinuationBody
-import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.models.BrowseResponse
+import app.flowtune.providers.innertube.models.ContinuationResponse
+import app.flowtune.providers.innertube.models.GridRenderer
+import app.flowtune.providers.innertube.models.MusicResponsiveListItemRenderer
+import app.flowtune.providers.innertube.models.MusicShelfRenderer
+import app.flowtune.providers.innertube.models.MusicTwoRowItemRenderer
+import app.flowtune.providers.innertube.models.bodies.BrowseBody
+import app.flowtune.providers.innertube.models.bodies.ContinuationBody
+import app.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.call.body
 import io.ktor.client.request.post
 import io.ktor.client.request.setBody

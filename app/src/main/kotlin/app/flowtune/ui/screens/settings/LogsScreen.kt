@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.settings
+package app.flowtune.ui.screens.settings
 
 import android.content.Intent
 import androidx.compose.animation.AnimatedContent
@@ -41,21 +41,21 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
-import com.abhiram79.flowtune.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.utils.Logcat
-import com.abhiram79.flowtune.utils.color
-import com.abhiram79.flowtune.utils.logcat
-import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.utils.smoothScrollToTop
-import com.abhiram79.flowtune.routing.RouteHandler
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.surface
-import com.abhiram79.flowtune.core.ui.utils.ActivityIntentBundleAccessor
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.R
+import app.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
+import app.flowtune.ui.components.themed.Scaffold
+import app.flowtune.ui.screens.GlobalRoutes
+import app.flowtune.ui.screens.Route
+import app.flowtune.utils.Logcat
+import app.flowtune.utils.color
+import app.flowtune.utils.logcat
+import app.flowtune.utils.semiBold
+import app.flowtune.utils.smoothScrollToTop
+import app.flowtune.routing.RouteHandler
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.surface
+import app.flowtune.core.ui.utils.ActivityIntentBundleAccessor
 import kotlinx.coroutines.delay
 
 @Route

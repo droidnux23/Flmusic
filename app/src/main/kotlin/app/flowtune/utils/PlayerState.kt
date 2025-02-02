@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -21,10 +21,10 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.common.Timeline
-import com.abhiram79.flowtune.LocalPlayerServiceBinder
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.service.PlayerService
-import com.abhiram79.flowtune.core.ui.utils.EqualizerIntentBundleAccessor
+import app.flowtune.LocalPlayerServiceBinder
+import app.flowtune.R
+import app.flowtune.service.PlayerService
+import app.flowtune.core.ui.utils.EqualizerIntentBundleAccessor
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlin.time.Duration

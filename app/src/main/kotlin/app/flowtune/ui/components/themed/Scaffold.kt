@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope.SlideDirection.Companion.Down
@@ -17,9 +17,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.IntOffset
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.preferences.UIStatePreferences
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.R
+import app.flowtune.preferences.UIStatePreferences
+import app.flowtune.core.ui.LocalAppearance
 import kotlinx.collections.immutable.toImmutableList
 
 @Composable

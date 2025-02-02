@@ -1,6 +1,6 @@
-package com.abhiram79.flowtune.providers.innertube.models
+package app.flowtune.providers.innertube.models
 
-import com.abhiram79.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.Innertube
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
 

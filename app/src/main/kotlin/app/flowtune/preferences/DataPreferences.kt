@@ -1,12 +1,12 @@
-package com.abhiram79.flowtune.preferences
+package app.flowtune.preferences
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.abhiram79.flowtune.GlobalPreferencesHolder
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.core.data.enums.CoilDiskCacheSize
-import com.abhiram79.flowtune.core.data.enums.ExoPlayerDiskCacheSize
-import com.abhiram79.flowtune.providers.innertube.Innertube
+import app.flowtune.GlobalPreferencesHolder
+import app.flowtune.R
+import app.flowtune.core.data.enums.CoilDiskCacheSize
+import app.flowtune.core.data.enums.ExoPlayerDiskCacheSize
+import app.flowtune.providers.innertube.Innertube
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours

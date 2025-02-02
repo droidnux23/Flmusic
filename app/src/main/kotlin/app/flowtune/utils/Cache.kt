@@ -1,6 +1,6 @@
 @file:OptIn(UnstableApi::class)
 
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import androidx.annotation.OptIn
 import androidx.media3.common.util.UnstableApi

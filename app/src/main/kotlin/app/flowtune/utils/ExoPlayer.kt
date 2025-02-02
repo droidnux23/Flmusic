@@ -1,6 +1,6 @@
 @file:OptIn(UnstableApi::class)
 
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.content.Context
 import android.util.Log

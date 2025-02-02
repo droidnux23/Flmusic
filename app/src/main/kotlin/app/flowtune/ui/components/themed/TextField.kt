@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -20,10 +20,10 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextOverflow
-import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.core.ui.Appearance
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.utils.secondary
+import app.flowtune.utils.semiBold
+import app.flowtune.core.ui.Appearance
+import app.flowtune.core.ui.LocalAppearance
 
 @Composable
 fun ColumnScope.TextField(

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.app.Activity
 import android.app.PendingIntent
@@ -19,9 +19,9 @@ import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.DownloadRequest
 import androidx.media3.exoplayer.offline.DownloadService
 import androidx.media3.exoplayer.offline.DownloadService.sendAddDownload
-import com.abhiram79.flowtune.BuildConfig
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid11
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid6
+import app.flowtune.BuildConfig
+import app.flowtune.core.ui.utils.isAtLeastAndroid11
+import app.flowtune.core.ui.utils.isAtLeastAndroid6
 
 inline fun <reified T> Context.intent(): Intent = Intent(this@Context, T::class.java)
 

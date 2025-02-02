@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -8,10 +8,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.models.Album
-import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.providers.innertube.Innertube
+import app.flowtune.models.Album
+import app.flowtune.utils.semiBold
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.providers.innertube.Innertube
 
 @Composable
 fun PlaylistInfo(

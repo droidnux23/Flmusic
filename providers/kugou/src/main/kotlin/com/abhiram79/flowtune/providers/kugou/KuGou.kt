@@ -1,9 +1,9 @@
-package com.abhiram79.flowtune.providers.kugou
+package app.flowtune.providers.kugou
 
-import com.abhiram79.flowtune.providers.kugou.models.DownloadLyricsResponse
-import com.abhiram79.flowtune.providers.kugou.models.SearchLyricsResponse
-import com.abhiram79.flowtune.providers.kugou.models.SearchSongResponse
-import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
+import app.flowtune.providers.kugou.models.DownloadLyricsResponse
+import app.flowtune.providers.kugou.models.SearchLyricsResponse
+import app.flowtune.providers.kugou.models.SearchSongResponse
+import app.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.okhttp.OkHttp

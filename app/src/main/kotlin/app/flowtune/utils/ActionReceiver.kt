@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
@@ -8,7 +8,7 @@ import android.content.IntentFilter
 import android.graphics.drawable.Icon
 import android.util.Log
 import androidx.core.content.ContextCompat
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid6
+import app.flowtune.core.ui.utils.isAtLeastAndroid6
 import kotlin.properties.PropertyDelegateProvider
 import kotlin.properties.ReadOnlyProperty
 import kotlin.reflect.KProperty

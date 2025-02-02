@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import androidx.annotation.OptIn
 import androidx.compose.animation.AnimatedContent
@@ -24,17 +24,17 @@ import androidx.media3.datasource.DataSource
 import androidx.media3.datasource.DataSpec
 import androidx.media3.datasource.TransferListener
 import androidx.media3.datasource.cache.CacheDataSource
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.LocalPlayerServiceBinder
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.models.Format
-import com.abhiram79.flowtune.service.LOCAL_KEY_PREFIX
-import com.abhiram79.flowtune.service.PlayerService
-import com.abhiram79.flowtune.service.PrecacheService
-import com.abhiram79.flowtune.service.downloadState
-import com.abhiram79.flowtune.ui.components.themed.CircularProgressIndicator
-import com.abhiram79.flowtune.ui.components.themed.HeaderIconButton
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.Database
+import app.flowtune.LocalPlayerServiceBinder
+import app.flowtune.R
+import app.flowtune.models.Format
+import app.flowtune.service.LOCAL_KEY_PREFIX
+import app.flowtune.service.PlayerService
+import app.flowtune.service.PrecacheService
+import app.flowtune.service.downloadState
+import app.flowtune.ui.components.themed.CircularProgressIndicator
+import app.flowtune.ui.components.themed.HeaderIconButton
+import app.flowtune.core.ui.LocalAppearance
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.flow.distinctUntilChanged
 import java.util.concurrent.atomic.AtomicBoolean

@@ -20,7 +20,7 @@ Compose:
   ModifierMissing:
     active: true
     ignoreAnnotated:
-      - com.abhiram79.flowtune.ui.screens.Route
+      - app.flowtune.ui.screens.Route
   ModifierNaming:
     active: true
   ModifierNotUsedAtRoot:

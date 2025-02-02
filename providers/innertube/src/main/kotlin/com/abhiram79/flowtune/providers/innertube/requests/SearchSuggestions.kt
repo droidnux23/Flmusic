@@ -1,9 +1,9 @@
-package com.abhiram79.flowtune.providers.innertube.requests
+package app.flowtune.providers.innertube.requests
 
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.models.SearchSuggestionsResponse
-import com.abhiram79.flowtune.providers.innertube.models.bodies.SearchSuggestionsBody
-import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.models.SearchSuggestionsResponse
+import app.flowtune.providers.innertube.models.bodies.SearchSuggestionsBody
+import app.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.call.body
 import io.ktor.client.request.post
 import io.ktor.client.request.setBody

@@ -1,11 +1,11 @@
-package com.abhiram79.flowtune.preferences
+package app.flowtune.preferences
 
-import com.abhiram79.flowtune.GlobalPreferencesHolder
-import com.abhiram79.flowtune.core.data.enums.AlbumSortBy
-import com.abhiram79.flowtune.core.data.enums.ArtistSortBy
-import com.abhiram79.flowtune.core.data.enums.PlaylistSortBy
-import com.abhiram79.flowtune.core.data.enums.SongSortBy
-import com.abhiram79.flowtune.core.data.enums.SortOrder
+import app.flowtune.GlobalPreferencesHolder
+import app.flowtune.core.data.enums.AlbumSortBy
+import app.flowtune.core.data.enums.ArtistSortBy
+import app.flowtune.core.data.enums.PlaylistSortBy
+import app.flowtune.core.data.enums.SongSortBy
+import app.flowtune.core.data.enums.SortOrder
 
 object OrderPreferences : GlobalPreferencesHolder() {
     var songSortOrder by enum(SortOrder.Descending)

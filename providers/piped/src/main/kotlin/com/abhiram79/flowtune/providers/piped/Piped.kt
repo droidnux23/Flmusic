@@ -1,12 +1,12 @@
-package com.abhiram79.flowtune.providers.piped
+package app.flowtune.providers.piped
 
-import com.abhiram79.flowtune.providers.piped.models.CreatedPlaylist
-import com.abhiram79.flowtune.providers.piped.models.Instance
-import com.abhiram79.flowtune.providers.piped.models.Playlist
-import com.abhiram79.flowtune.providers.piped.models.PlaylistPreview
-import com.abhiram79.flowtune.providers.piped.models.Session
-import com.abhiram79.flowtune.providers.piped.models.authenticatedWith
-import com.abhiram79.flowtune.providers.utils.runCatchingCancellable
+import app.flowtune.providers.piped.models.CreatedPlaylist
+import app.flowtune.providers.piped.models.Instance
+import app.flowtune.providers.piped.models.Playlist
+import app.flowtune.providers.piped.models.PlaylistPreview
+import app.flowtune.providers.piped.models.Session
+import app.flowtune.providers.piped.models.authenticatedWith
+import app.flowtune.providers.utils.runCatchingCancellable
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.cio.CIO

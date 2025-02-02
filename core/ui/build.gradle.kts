@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.abhiram79.flowtune.core.ui"
+    namespace = "app.flowtune.core.ui"
     compileSdk = 35
 
     defaultConfig {

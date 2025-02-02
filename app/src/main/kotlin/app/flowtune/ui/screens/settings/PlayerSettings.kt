@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.settings
+package app.flowtune.ui.screens.settings
 
 import androidx.annotation.OptIn
 import androidx.compose.animation.AnimatedVisibility
@@ -18,14 +18,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.media3.common.util.UnstableApi
-import com.abhiram79.flowtune.LocalPlayerServiceBinder
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.preferences.PlayerPreferences
-import com.abhiram79.flowtune.service.PlayerService
-import com.abhiram79.flowtune.ui.components.themed.SecondaryTextButton
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.utils.rememberEqualizerLauncher
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid6
+import app.flowtune.LocalPlayerServiceBinder
+import app.flowtune.R
+import app.flowtune.preferences.PlayerPreferences
+import app.flowtune.service.PlayerService
+import app.flowtune.ui.components.themed.SecondaryTextButton
+import app.flowtune.ui.screens.Route
+import app.flowtune.utils.rememberEqualizerLauncher
+import app.flowtune.core.ui.utils.isAtLeastAndroid6
 
 @OptIn(UnstableApi::class)
 @Route

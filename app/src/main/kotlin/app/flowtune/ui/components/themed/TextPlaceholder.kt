@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package app.flowtune.ui.components.themed
 
 import androidx.annotation.FloatRange
 import androidx.compose.foundation.background
@@ -11,8 +11,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.shimmer
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.shimmer
 import kotlin.random.Random
 
 @Composable

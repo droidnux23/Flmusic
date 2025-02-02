@@ -1,6 +1,6 @@
 @file:OptIn(UnstableApi::class)
 
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.content.ContentUris
 import android.net.Uri
@@ -13,16 +13,16 @@ import androidx.core.net.toUri
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
 import androidx.media3.common.util.UnstableApi
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.models.Song
-import com.abhiram79.flowtune.preferences.AppearancePreferences
-import com.abhiram79.flowtune.service.LOCAL_KEY_PREFIX
-import com.abhiram79.flowtune.service.isLocal
-import com.abhiram79.flowtune.core.ui.utils.SongBundleAccessor
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.models.bodies.ContinuationBody
-import com.abhiram79.flowtune.providers.innertube.requests.playlistPage
-import com.abhiram79.flowtune.providers.piped.models.Playlist
+import app.flowtune.R
+import app.flowtune.models.Song
+import app.flowtune.preferences.AppearancePreferences
+import app.flowtune.service.LOCAL_KEY_PREFIX
+import app.flowtune.service.isLocal
+import app.flowtune.core.ui.utils.SongBundleAccessor
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.models.bodies.ContinuationBody
+import app.flowtune.providers.innertube.requests.playlistPage
+import app.flowtune.providers.piped.models.Playlist
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.onEach

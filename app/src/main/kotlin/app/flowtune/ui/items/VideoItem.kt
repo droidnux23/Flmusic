@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.items
+package app.flowtune.ui.items
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -14,18 +14,18 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.ui.components.themed.TextPlaceholder
-import com.abhiram79.flowtune.utils.color
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.core.ui.Dimensions
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.onOverlay
-import com.abhiram79.flowtune.core.ui.overlay
-import com.abhiram79.flowtune.core.ui.shimmer
-import com.abhiram79.flowtune.core.ui.utils.roundedShape
-import com.abhiram79.flowtune.providers.innertube.Innertube
+import app.flowtune.ui.components.themed.TextPlaceholder
+import app.flowtune.utils.color
+import app.flowtune.utils.medium
+import app.flowtune.utils.secondary
+import app.flowtune.utils.semiBold
+import app.flowtune.core.ui.Dimensions
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.onOverlay
+import app.flowtune.core.ui.overlay
+import app.flowtune.core.ui.shimmer
+import app.flowtune.core.ui.utils.roundedShape
+import app.flowtune.providers.innertube.Innertube
 import coil3.compose.AsyncImage
 
 @Composable

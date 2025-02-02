@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.os.CancellationSignal
 import kotlinx.coroutines.CancellableContinuation

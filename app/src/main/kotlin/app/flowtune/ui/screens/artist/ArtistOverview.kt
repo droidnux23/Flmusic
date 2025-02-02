@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.artist
+package app.flowtune.ui.screens.artist
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -24,32 +24,32 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.LocalPlayerServiceBinder
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.ui.components.LocalMenuState
-import com.abhiram79.flowtune.ui.components.ShimmerHost
-import com.abhiram79.flowtune.ui.components.themed.Attribution
-import com.abhiram79.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
-import com.abhiram79.flowtune.ui.components.themed.LayoutWithAdaptiveThumbnail
-import com.abhiram79.flowtune.ui.components.themed.NonQueuedMediaItemMenu
-import com.abhiram79.flowtune.ui.components.themed.SecondaryTextButton
-import com.abhiram79.flowtune.ui.components.themed.TextPlaceholder
-import com.abhiram79.flowtune.ui.items.AlbumItem
-import com.abhiram79.flowtune.ui.items.AlbumItemPlaceholder
-import com.abhiram79.flowtune.ui.items.SongItem
-import com.abhiram79.flowtune.ui.items.SongItemPlaceholder
-import com.abhiram79.flowtune.utils.asMediaItem
-import com.abhiram79.flowtune.utils.forcePlay
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.playingSong
-import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.core.ui.Dimensions
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.utils.isLandscape
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.models.NavigationEndpoint
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.LocalPlayerServiceBinder
+import app.flowtune.R
+import app.flowtune.ui.components.LocalMenuState
+import app.flowtune.ui.components.ShimmerHost
+import app.flowtune.ui.components.themed.Attribution
+import app.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
+import app.flowtune.ui.components.themed.LayoutWithAdaptiveThumbnail
+import app.flowtune.ui.components.themed.NonQueuedMediaItemMenu
+import app.flowtune.ui.components.themed.SecondaryTextButton
+import app.flowtune.ui.components.themed.TextPlaceholder
+import app.flowtune.ui.items.AlbumItem
+import app.flowtune.ui.items.AlbumItemPlaceholder
+import app.flowtune.ui.items.SongItem
+import app.flowtune.ui.items.SongItemPlaceholder
+import app.flowtune.utils.asMediaItem
+import app.flowtune.utils.forcePlay
+import app.flowtune.utils.medium
+import app.flowtune.utils.playingSong
+import app.flowtune.utils.secondary
+import app.flowtune.utils.semiBold
+import app.flowtune.core.ui.Dimensions
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.utils.isLandscape
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.models.NavigationEndpoint
 
 private val sectionTextModifier = Modifier
     .padding(horizontal = 16.dp)

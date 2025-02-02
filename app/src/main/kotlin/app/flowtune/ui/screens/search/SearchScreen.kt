@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.search
+package app.flowtune.ui.screens.search
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -16,14 +16,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.TextFieldValue
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.persist.PersistMapCleanup
-import com.abhiram79.flowtune.routing.RouteHandler
-import com.abhiram79.flowtune.core.ui.LocalAppearance
+import app.flowtune.R
+import app.flowtune.ui.components.themed.Scaffold
+import app.flowtune.ui.screens.GlobalRoutes
+import app.flowtune.ui.screens.Route
+import app.flowtune.utils.secondary
+import app.flowtune.persist.PersistMapCleanup
+import app.flowtune.routing.RouteHandler
+import app.flowtune.core.ui.LocalAppearance
 
 @Route
 @Composable

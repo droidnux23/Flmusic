@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.home
+package app.flowtune.ui.screens.home
 
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.animateFloatAsState
@@ -29,39 +29,39 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.models.PipedSession
-import com.abhiram79.flowtune.models.Playlist
-import com.abhiram79.flowtune.models.PlaylistPreview
-import com.abhiram79.flowtune.preferences.DataPreferences
-import com.abhiram79.flowtune.preferences.OrderPreferences
-import com.abhiram79.flowtune.preferences.UIStatePreferences
-import com.abhiram79.flowtune.query
-import com.abhiram79.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
-import com.abhiram79.flowtune.ui.components.themed.Header
-import com.abhiram79.flowtune.ui.components.themed.HeaderIconButton
-import com.abhiram79.flowtune.ui.components.themed.SecondaryTextButton
-import com.abhiram79.flowtune.ui.components.themed.TextFieldDialog
-import com.abhiram79.flowtune.ui.components.themed.VerticalDivider
-import com.abhiram79.flowtune.ui.items.PlaylistItem
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.ui.screens.builtinplaylist.BuiltInPlaylistScreen
-import com.abhiram79.flowtune.ui.screens.settings.SettingsEntryGroupText
-import com.abhiram79.flowtune.ui.screens.settings.SettingsGroupSpacer
-import com.abhiram79.flowtune.persist.persist
-import com.abhiram79.flowtune.persist.persistList
-import com.abhiram79.flowtune.core.data.enums.BuiltInPlaylist
-import com.abhiram79.flowtune.core.data.enums.PlaylistSortBy
-import com.abhiram79.flowtune.core.data.enums.SortOrder
-import com.abhiram79.flowtune.core.ui.Dimensions
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.providers.piped.Piped
-import com.abhiram79.flowtune.providers.piped.models.Session
+import app.flowtune.Database
+import app.flowtune.LocalPlayerAwareWindowInsets
+import app.flowtune.R
+import app.flowtune.models.PipedSession
+import app.flowtune.models.Playlist
+import app.flowtune.models.PlaylistPreview
+import app.flowtune.preferences.DataPreferences
+import app.flowtune.preferences.OrderPreferences
+import app.flowtune.preferences.UIStatePreferences
+import app.flowtune.query
+import app.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
+import app.flowtune.ui.components.themed.Header
+import app.flowtune.ui.components.themed.HeaderIconButton
+import app.flowtune.ui.components.themed.SecondaryTextButton
+import app.flowtune.ui.components.themed.TextFieldDialog
+import app.flowtune.ui.components.themed.VerticalDivider
+import app.flowtune.ui.items.PlaylistItem
+import app.flowtune.ui.screens.Route
+import app.flowtune.ui.screens.builtinplaylist.BuiltInPlaylistScreen
+import app.flowtune.ui.screens.settings.SettingsEntryGroupText
+import app.flowtune.ui.screens.settings.SettingsGroupSpacer
+import app.flowtune.persist.persist
+import app.flowtune.persist.persistList
+import app.flowtune.core.data.enums.BuiltInPlaylist
+import app.flowtune.core.data.enums.PlaylistSortBy
+import app.flowtune.core.data.enums.SortOrder
+import app.flowtune.core.ui.Dimensions
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.providers.piped.Piped
+import app.flowtune.providers.piped.models.Session
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.async
-import com.abhiram79.flowtune.providers.piped.models.PlaylistPreview as PipedPlaylistPreview
+import app.flowtune.providers.piped.models.PlaylistPreview as PipedPlaylistPreview
 
 @Route
 @Composable

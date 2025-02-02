@@ -1,9 +1,9 @@
-package com.abhiram79.flowtune.providers.innertube.utils
+package app.flowtune.providers.innertube.utils
 
-import com.abhiram79.flowtune.providers.innertube.Innertube
-import com.abhiram79.flowtune.providers.innertube.models.MusicShelfRenderer
-import com.abhiram79.flowtune.providers.innertube.models.NavigationEndpoint
-import com.abhiram79.flowtune.providers.innertube.models.isExplicit
+import app.flowtune.providers.innertube.Innertube
+import app.flowtune.providers.innertube.models.MusicShelfRenderer
+import app.flowtune.providers.innertube.models.NavigationEndpoint
+import app.flowtune.providers.innertube.models.isExplicit
 
 // Possible configurations:
 // "song" • author(s) • album • duration

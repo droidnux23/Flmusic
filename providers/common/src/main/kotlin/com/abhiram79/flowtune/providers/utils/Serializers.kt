@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.providers.utils
+package app.flowtune.providers.utils
 
 import io.ktor.http.Url
 import kotlinx.datetime.LocalDateTime

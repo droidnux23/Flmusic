@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.toArgb
@@ -6,8 +6,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.abhiram79.flowtune.core.ui.ColorPalette
-import com.abhiram79.flowtune.core.ui.defaultLightPalette
+import app.flowtune.core.ui.ColorPalette
+import app.flowtune.core.ui.defaultLightPalette
 import com.kieronquinn.monetcompat.core.MonetCompat
 import kotlinx.coroutines.launch
 

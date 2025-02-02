@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.utils
+package app.flowtune.utils
 
 import android.graphics.Bitmap
 import androidx.compose.runtime.Composable
@@ -7,7 +7,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import com.abhiram79.flowtune.service.PlayerService
+import app.flowtune.service.PlayerService
 
 @Composable
 fun PlayerService.Binder?.collectProvidedBitmapAsState(

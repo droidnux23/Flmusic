@@ -1,30 +1,30 @@
-package com.abhiram79.flowtune.ui.screens.home
+package app.flowtune.ui.screens.home
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.models.toUiMood
-import com.abhiram79.flowtune.preferences.UIStatePreferences
-import com.abhiram79.flowtune.ui.components.themed.Scaffold
-import com.abhiram79.flowtune.ui.screens.GlobalRoutes
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.ui.screens.albumRoute
-import com.abhiram79.flowtune.ui.screens.artistRoute
-import com.abhiram79.flowtune.ui.screens.builtInPlaylistRoute
-import com.abhiram79.flowtune.ui.screens.builtinplaylist.BuiltInPlaylistScreen
-import com.abhiram79.flowtune.ui.screens.localPlaylistRoute
-import com.abhiram79.flowtune.ui.screens.localplaylist.LocalPlaylistScreen
-import com.abhiram79.flowtune.ui.screens.mood.MoodScreen
-import com.abhiram79.flowtune.ui.screens.mood.MoreAlbumsScreen
-import com.abhiram79.flowtune.ui.screens.mood.MoreMoodsScreen
-import com.abhiram79.flowtune.ui.screens.moodRoute
-import com.abhiram79.flowtune.ui.screens.pipedPlaylistRoute
-import com.abhiram79.flowtune.ui.screens.playlistRoute
-import com.abhiram79.flowtune.ui.screens.searchRoute
-import com.abhiram79.flowtune.ui.screens.settingsRoute
-import com.abhiram79.flowtune.persist.PersistMapCleanup
-import com.abhiram79.flowtune.routing.Route0
-import com.abhiram79.flowtune.routing.RouteHandler
+import app.flowtune.R
+import app.flowtune.models.toUiMood
+import app.flowtune.preferences.UIStatePreferences
+import app.flowtune.ui.components.themed.Scaffold
+import app.flowtune.ui.screens.GlobalRoutes
+import app.flowtune.ui.screens.Route
+import app.flowtune.ui.screens.albumRoute
+import app.flowtune.ui.screens.artistRoute
+import app.flowtune.ui.screens.builtInPlaylistRoute
+import app.flowtune.ui.screens.builtinplaylist.BuiltInPlaylistScreen
+import app.flowtune.ui.screens.localPlaylistRoute
+import app.flowtune.ui.screens.localplaylist.LocalPlaylistScreen
+import app.flowtune.ui.screens.mood.MoodScreen
+import app.flowtune.ui.screens.mood.MoreAlbumsScreen
+import app.flowtune.ui.screens.mood.MoreMoodsScreen
+import app.flowtune.ui.screens.moodRoute
+import app.flowtune.ui.screens.pipedPlaylistRoute
+import app.flowtune.ui.screens.playlistRoute
+import app.flowtune.ui.screens.searchRoute
+import app.flowtune.ui.screens.settingsRoute
+import app.flowtune.persist.PersistMapCleanup
+import app.flowtune.routing.Route0
+import app.flowtune.routing.RouteHandler
 
 private val moreMoodsRoute = Route0("moreMoodsRoute")
 private val moreAlbumsRoute = Route0("moreAlbumsRoute")

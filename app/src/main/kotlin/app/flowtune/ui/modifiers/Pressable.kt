@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.modifiers
+package app.flowtune.ui.modifiers
 
 import androidx.compose.foundation.Indication
 import androidx.compose.foundation.clickable

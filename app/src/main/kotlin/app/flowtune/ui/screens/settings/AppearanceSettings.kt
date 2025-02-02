@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.settings
+package app.flowtune.ui.screens.settings
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
@@ -11,21 +11,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.preferences.AppearancePreferences
-import com.abhiram79.flowtune.preferences.PlayerPreferences
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.utils.currentLocale
-import com.abhiram79.flowtune.utils.findActivity
-import com.abhiram79.flowtune.utils.startLanguagePicker
-import com.abhiram79.flowtune.core.ui.BuiltInFontFamily
-import com.abhiram79.flowtune.core.ui.ColorMode
-import com.abhiram79.flowtune.core.ui.ColorSource
-import com.abhiram79.flowtune.core.ui.Darkness
-import com.abhiram79.flowtune.core.ui.LocalAppearance
-import com.abhiram79.flowtune.core.ui.ThumbnailRoundness
-import com.abhiram79.flowtune.core.ui.googleFontsAvailable
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid13
+import app.flowtune.R
+import app.flowtune.preferences.AppearancePreferences
+import app.flowtune.preferences.PlayerPreferences
+import app.flowtune.ui.screens.Route
+import app.flowtune.utils.currentLocale
+import app.flowtune.utils.findActivity
+import app.flowtune.utils.startLanguagePicker
+import app.flowtune.core.ui.BuiltInFontFamily
+import app.flowtune.core.ui.ColorMode
+import app.flowtune.core.ui.ColorSource
+import app.flowtune.core.ui.Darkness
+import app.flowtune.core.ui.LocalAppearance
+import app.flowtune.core.ui.ThumbnailRoundness
+import app.flowtune.core.ui.googleFontsAvailable
+import app.flowtune.core.ui.utils.isAtLeastAndroid13
 
 @Route
 @Composable

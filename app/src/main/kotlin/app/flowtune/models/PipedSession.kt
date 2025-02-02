@@ -1,10 +1,10 @@
-package com.abhiram79.flowtune.models
+package app.flowtune.models
 
 import androidx.compose.runtime.Immutable
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import com.abhiram79.flowtune.providers.piped.models.authenticatedWith
+import app.flowtune.providers.piped.models.authenticatedWith
 import io.ktor.http.Url
 
 @Immutable

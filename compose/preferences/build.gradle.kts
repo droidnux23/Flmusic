@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.abhiram79.flowtune.compose.preferences"
+    namespace = "app.flowtune.compose.preferences"
     compileSdk = 35
 
     defaultConfig {

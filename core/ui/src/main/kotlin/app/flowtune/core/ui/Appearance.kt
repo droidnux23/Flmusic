@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.core.ui
+package app.flowtune.core.ui
 
 import android.app.Activity
 import android.graphics.Bitmap
@@ -15,10 +15,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.Dp
 import androidx.core.view.WindowCompat
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid6
-import com.abhiram79.flowtune.core.ui.utils.isAtLeastAndroid8
-import com.abhiram79.flowtune.core.ui.utils.isCompositionLaunched
-import com.abhiram79.flowtune.core.ui.utils.roundedShape
+import app.flowtune.core.ui.utils.isAtLeastAndroid6
+import app.flowtune.core.ui.utils.isAtLeastAndroid8
+import app.flowtune.core.ui.utils.isCompositionLaunched
+import app.flowtune.core.ui.utils.roundedShape
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.IgnoredOnParcel
