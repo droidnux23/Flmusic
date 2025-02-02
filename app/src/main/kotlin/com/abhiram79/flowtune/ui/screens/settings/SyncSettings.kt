@@ -47,7 +47,7 @@ import com.abhiram79.flowtune.utils.center
 import com.abhiram79.flowtune.utils.get
 import com.abhiram79.flowtune.utils.semiBold
 import com.abhiram79.flowtune.utils.upsert
-import app.vitune.compose.persist.persistList
+import com.abhiram79.flowtune.compose.persist.persistList
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.providers.piped.Piped
 import app.vitune.providers.piped.models.Instance

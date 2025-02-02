@@ -91,8 +91,8 @@ import com.abhiram79.flowtune.utils.secondary
 import com.abhiram79.flowtune.utils.semiBold
 import com.abhiram79.flowtune.utils.shouldBePlaying
 import com.abhiram79.flowtune.utils.thumbnail
-import app.vitune.compose.persist.PersistMapCleanup
-import app.vitune.compose.routing.OnGlobalRoute
+import com.abhiram79.flowtune.compose.persist.PersistMapCleanup
+import com.abhiram79.flowtune.compose.routing.OnGlobalRoute
 import app.vitune.core.ui.Dimensions
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.ThumbnailRoundness

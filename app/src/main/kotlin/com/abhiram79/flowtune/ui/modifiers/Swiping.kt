@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.modifiers
+package com.abhiram79.flowtune.compose.ui.modifiers
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.AnimationSpec

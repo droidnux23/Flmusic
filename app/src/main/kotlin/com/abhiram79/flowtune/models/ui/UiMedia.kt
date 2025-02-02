@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.models.ui
+package com.abhiram79.flowtune.compose.models.ui
 
 import androidx.media3.common.MediaItem
 import app.vitune.core.ui.utils.songBundle

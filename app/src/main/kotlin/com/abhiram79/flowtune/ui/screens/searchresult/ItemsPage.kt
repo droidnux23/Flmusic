@@ -28,7 +28,7 @@ import com.abhiram79.flowtune.ui.components.ShimmerHost
 import com.abhiram79.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
 import com.abhiram79.flowtune.utils.center
 import com.abhiram79.flowtune.utils.secondary
-import app.vitune.compose.persist.persist
+import com.abhiram79.flowtune.compose.persist.persist
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.providers.innertube.Innertube
 import app.vitune.providers.innertube.utils.plus

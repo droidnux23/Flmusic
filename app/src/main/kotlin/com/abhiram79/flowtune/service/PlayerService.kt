@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.service
+package com.abhiram79.flowtune.compose.service
 
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
@@ -64,49 +64,49 @@ import androidx.media3.exoplayer.audio.SilenceSkippingAudioProcessor
 import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.exoplayer.upstream.DefaultLoadErrorHandlingPolicy
 import androidx.media3.extractor.DefaultExtractorsFactory
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.MainActivity
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.models.Event
-import com.abhiram79.flowtune.models.Format
-import com.abhiram79.flowtune.models.QueuedMediaItem
-import com.abhiram79.flowtune.models.Song
-import com.abhiram79.flowtune.models.SongWithContentLength
-import com.abhiram79.flowtune.preferences.AppearancePreferences
-import com.abhiram79.flowtune.preferences.DataPreferences
-import com.abhiram79.flowtune.preferences.PlayerPreferences
-import com.abhiram79.flowtune.query
-import com.abhiram79.flowtune.transaction
-import com.abhiram79.flowtune.utils.ActionReceiver
-import com.abhiram79.flowtune.utils.ConditionalCacheDataSourceFactory
-import com.abhiram79.flowtune.utils.GlyphInterface
-import com.abhiram79.flowtune.utils.InvincibleService
-import com.abhiram79.flowtune.utils.TimerJob
-import com.abhiram79.flowtune.utils.YouTubeRadio
-import com.abhiram79.flowtune.utils.activityPendingIntent
-import com.abhiram79.flowtune.utils.asDataSource
-import com.abhiram79.flowtune.utils.broadcastPendingIntent
-import com.abhiram79.flowtune.utils.defaultDataSource
-import com.abhiram79.flowtune.utils.findCause
-import com.abhiram79.flowtune.utils.findNextMediaItemById
-import com.abhiram79.flowtune.utils.forcePlayFromBeginning
-import com.abhiram79.flowtune.utils.forceSeekToNext
-import com.abhiram79.flowtune.utils.forceSeekToPrevious
-import com.abhiram79.flowtune.utils.get
-import com.abhiram79.flowtune.utils.handleRangeErrors
-import com.abhiram79.flowtune.utils.handleUnknownErrors
-import com.abhiram79.flowtune.utils.intent
-import com.abhiram79.flowtune.utils.mediaItems
-import com.abhiram79.flowtune.utils.progress
-import com.abhiram79.flowtune.utils.readOnlyWhen
-import com.abhiram79.flowtune.utils.retryIf
-import com.abhiram79.flowtune.utils.setPlaybackPitch
-import com.abhiram79.flowtune.utils.shouldBePlaying
-import com.abhiram79.flowtune.utils.thumbnail
-import com.abhiram79.flowtune.utils.timer
-import com.abhiram79.flowtune.utils.toast
-import com.abhiram79.flowtune.utils.withFallback
-import app.vitune.compose.preferences.SharedPreferencesProperty
+import com.abhiram79.flowtune.compose.Database
+import com.abhiram79.flowtune.compose.MainActivity
+import com.abhiram79.flowtune.compose.R
+import com.abhiram79.flowtune.compose.models.Event
+import com.abhiram79.flowtune.compose.models.Format
+import com.abhiram79.flowtune.compose.models.QueuedMediaItem
+import com.abhiram79.flowtune.compose.models.Song
+import com.abhiram79.flowtune.compose.models.SongWithContentLength
+import com.abhiram79.flowtune.compose.preferences.AppearancePreferences
+import com.abhiram79.flowtune.compose.preferences.DataPreferences
+import com.abhiram79.flowtune.compose.preferences.PlayerPreferences
+import com.abhiram79.flowtune.compose.query
+import com.abhiram79.flowtune.compose.transaction
+import com.abhiram79.flowtune.compose.utils.ActionReceiver
+import com.abhiram79.flowtune.compose.utils.ConditionalCacheDataSourceFactory
+import com.abhiram79.flowtune.compose.utils.GlyphInterface
+import com.abhiram79.flowtune.compose.utils.InvincibleService
+import com.abhiram79.flowtune.compose.utils.TimerJob
+import com.abhiram79.flowtune.compose.utils.YouTubeRadio
+import com.abhiram79.flowtune.compose.utils.activityPendingIntent
+import com.abhiram79.flowtune.compose.utils.asDataSource
+import com.abhiram79.flowtune.compose.utils.broadcastPendingIntent
+import com.abhiram79.flowtune.compose.utils.defaultDataSource
+import com.abhiram79.flowtune.compose.utils.findCause
+import com.abhiram79.flowtune.compose.utils.findNextMediaItemById
+import com.abhiram79.flowtune.compose.utils.forcePlayFromBeginning
+import com.abhiram79.flowtune.compose.utils.forceSeekToNext
+import com.abhiram79.flowtune.compose.utils.forceSeekToPrevious
+import com.abhiram79.flowtune.compose.utils.get
+import com.abhiram79.flowtune.compose.utils.handleRangeErrors
+import com.abhiram79.flowtune.compose.utils.handleUnknownErrors
+import com.abhiram79.flowtune.compose.utils.intent
+import com.abhiram79.flowtune.compose.utils.mediaItems
+import com.abhiram79.flowtune.compose.utils.progress
+import com.abhiram79.flowtune.compose.utils.readOnlyWhen
+import com.abhiram79.flowtune.compose.utils.retryIf
+import com.abhiram79.flowtune.compose.utils.setPlaybackPitch
+import com.abhiram79.flowtune.compose.utils.shouldBePlaying
+import com.abhiram79.flowtune.compose.utils.thumbnail
+import com.abhiram79.flowtune.compose.utils.timer
+import com.abhiram79.flowtune.compose.utils.toast
+import com.abhiram79.flowtune.compose.utils.withFallback
+import com.abhiram79.flowtune.compose.preferences.SharedPreferencesProperty
 import app.vitune.core.data.enums.ExoPlayerDiskCacheSize
 import app.vitune.core.data.utils.UriCache
 import app.vitune.core.ui.utils.EqualizerIntentBundleAccessor
@@ -1276,7 +1276,7 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
     }
 
     inner class NotificationActionReceiver internal constructor() :
-        ActionReceiver("com.abhiram79.flowtune") {
+        ActionReceiver("com.abhiram79.flowtune.compose") {
         val pause by action { _, _ ->
             player.pause()
         }

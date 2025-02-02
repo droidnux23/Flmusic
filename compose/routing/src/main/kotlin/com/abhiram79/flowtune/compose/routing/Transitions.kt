@@ -1,4 +1,4 @@
-package app.vitune.compose.routing
+package com.abhiram79.flowtune.compose.routing
 
 import androidx.compose.animation.ContentTransform
 import androidx.compose.animation.EnterTransition

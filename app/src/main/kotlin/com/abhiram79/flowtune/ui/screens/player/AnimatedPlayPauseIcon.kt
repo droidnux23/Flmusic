@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.player
+package com.abhiram79.flowtune.compose.ui.screens.player
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.res.painterResource
 import androidx.core.graphics.BlendModeColorFilterCompat
 import androidx.core.graphics.BlendModeCompat
-import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.compose.R
 import app.vitune.core.ui.LocalAppearance
 import com.airbnb.lottie.LottieComposition
 import com.airbnb.lottie.LottieProperty

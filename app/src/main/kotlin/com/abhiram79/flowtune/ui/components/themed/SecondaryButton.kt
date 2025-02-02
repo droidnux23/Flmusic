@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package com.abhiram79.flowtune.compose.ui.components.themed
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image

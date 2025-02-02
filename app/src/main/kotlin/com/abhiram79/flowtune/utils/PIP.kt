@@ -35,7 +35,7 @@ import androidx.core.app.PictureInPictureModeChangedInfo
 import androidx.core.graphics.toRect
 import com.abhiram79.flowtune.R
 import com.abhiram79.flowtune.preferences.AppearancePreferences
-import app.vitune.compose.persist.findActivityNullable
+import com.abhiram79.flowtune.compose.persist.findActivityNullable
 import app.vitune.core.ui.utils.isAtLeastAndroid12
 import app.vitune.core.ui.utils.isAtLeastAndroid7
 import app.vitune.core.ui.utils.isAtLeastAndroid8

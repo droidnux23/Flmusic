@@ -6,8 +6,8 @@ import com.abhiram79.flowtune.R
 import com.abhiram79.flowtune.ui.components.themed.Scaffold
 import com.abhiram79.flowtune.ui.screens.GlobalRoutes
 import com.abhiram79.flowtune.ui.screens.Route
-import app.vitune.compose.persist.PersistMapCleanup
-import app.vitune.compose.routing.RouteHandler
+import com.abhiram79.flowtune.compose.persist.PersistMapCleanup
+import com.abhiram79.flowtune.compose.routing.RouteHandler
 
 @Route
 @Composable

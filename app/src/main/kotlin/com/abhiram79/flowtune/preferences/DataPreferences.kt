@@ -1,9 +1,9 @@
-package com.abhiram79.flowtune.preferences
+package com.abhiram79.flowtune.compose.preferences
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.abhiram79.flowtune.GlobalPreferencesHolder
-import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.compose.GlobalPreferencesHolder
+import com.abhiram79.flowtune.compose.R
 import app.vitune.core.data.enums.CoilDiskCacheSize
 import app.vitune.core.data.enums.ExoPlayerDiskCacheSize
 import app.vitune.providers.innertube.Innertube

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.home
+package com.abhiram79.flowtune.compose.ui.screens.home
 
 import android.Manifest
 import android.content.Context
@@ -26,17 +26,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.models.Song
-import com.abhiram79.flowtune.preferences.OrderPreferences
-import com.abhiram79.flowtune.service.LOCAL_KEY_PREFIX
-import com.abhiram79.flowtune.transaction
-import com.abhiram79.flowtune.ui.components.themed.SecondaryTextButton
-import com.abhiram79.flowtune.ui.screens.Route
-import com.abhiram79.flowtune.utils.AudioMediaCursor
-import com.abhiram79.flowtune.utils.hasPermission
-import com.abhiram79.flowtune.utils.medium
+import com.abhiram79.flowtune.compose.Database
+import com.abhiram79.flowtune.compose.R
+import com.abhiram79.flowtune.compose.models.Song
+import com.abhiram79.flowtune.compose.preferences.OrderPreferences
+import com.abhiram79.flowtune.compose.service.LOCAL_KEY_PREFIX
+import com.abhiram79.flowtune.compose.transaction
+import com.abhiram79.flowtune.compose.ui.components.themed.SecondaryTextButton
+import com.abhiram79.flowtune.compose.ui.screens.Route
+import com.abhiram79.flowtune.compose.utils.AudioMediaCursor
+import com.abhiram79.flowtune.compose.utils.hasPermission
+import com.abhiram79.flowtune.compose.utils.medium
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.utils.isAtLeastAndroid13
 import app.vitune.core.ui.utils.isCompositionLaunched

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components
+package com.abhiram79.flowtune.compose.ui.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.LinearEasing
@@ -52,11 +52,11 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.media3.common.C
-import com.abhiram79.flowtune.models.ui.UiMedia
-import com.abhiram79.flowtune.preferences.PlayerPreferences
-import com.abhiram79.flowtune.service.PlayerService
-import com.abhiram79.flowtune.utils.formatAsDuration
-import com.abhiram79.flowtune.utils.semiBold
+import com.abhiram79.flowtune.compose.models.ui.UiMedia
+import com.abhiram79.flowtune.compose.preferences.PlayerPreferences
+import com.abhiram79.flowtune.compose.service.PlayerService
+import com.abhiram79.flowtune.compose.utils.formatAsDuration
+import com.abhiram79.flowtune.compose.utils.semiBold
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.utils.roundedShape
 import kotlin.math.PI

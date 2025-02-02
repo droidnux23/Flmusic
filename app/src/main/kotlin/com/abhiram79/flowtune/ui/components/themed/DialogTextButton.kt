@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package com.abhiram79.flowtune.compose.ui.components.themed
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -9,9 +9,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.utils.disabled
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.primary
+import com.abhiram79.flowtune.compose.utils.disabled
+import com.abhiram79.flowtune.compose.utils.medium
+import com.abhiram79.flowtune.compose.utils.primary
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.utils.roundedShape
 

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package com.abhiram79.flowtune.compose.ui.components.themed
 
 import androidx.annotation.IntRange
 import androidx.compose.foundation.Canvas
@@ -42,11 +42,11 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.utils.center
-import com.abhiram79.flowtune.utils.drawCircle
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.semiBold
+import com.abhiram79.flowtune.compose.R
+import com.abhiram79.flowtune.compose.utils.center
+import com.abhiram79.flowtune.compose.utils.drawCircle
+import com.abhiram79.flowtune.compose.utils.medium
+import com.abhiram79.flowtune.compose.utils.semiBold
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.utils.roundedShape
 import kotlinx.collections.immutable.ImmutableList

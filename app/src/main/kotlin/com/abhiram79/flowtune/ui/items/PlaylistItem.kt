@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.items
+package com.abhiram79.flowtune.compose.ui.items
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -28,15 +28,15 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.models.PlaylistPreview
-import com.abhiram79.flowtune.ui.components.themed.TextPlaceholder
-import com.abhiram79.flowtune.utils.center
-import com.abhiram79.flowtune.utils.color
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.secondary
-import com.abhiram79.flowtune.utils.semiBold
-import com.abhiram79.flowtune.utils.thumbnail
+import com.abhiram79.flowtune.compose.Database
+import com.abhiram79.flowtune.compose.models.PlaylistPreview
+import com.abhiram79.flowtune.compose.ui.components.themed.TextPlaceholder
+import com.abhiram79.flowtune.compose.utils.center
+import com.abhiram79.flowtune.compose.utils.color
+import com.abhiram79.flowtune.compose.utils.medium
+import com.abhiram79.flowtune.compose.utils.secondary
+import com.abhiram79.flowtune.compose.utils.semiBold
+import com.abhiram79.flowtune.compose.utils.thumbnail
 import app.vitune.core.ui.Dimensions
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.onOverlay

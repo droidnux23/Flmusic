@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.service
+package com.abhiram79.flowtune.compose.service
 
 import android.app.Application
 import android.app.Notification
@@ -15,7 +15,7 @@ import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.getSystemService
 import androidx.media3.common.util.NotificationUtil.Importance
 import androidx.media3.common.util.UnstableApi
-import com.abhiram79.flowtune.R
+import com.abhiram79.flowtune.compose.R
 import java.util.concurrent.atomic.AtomicInteger
 import kotlin.math.absoluteValue
 import kotlin.properties.PropertyDelegateProvider

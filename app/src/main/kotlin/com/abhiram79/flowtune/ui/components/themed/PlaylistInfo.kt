@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package com.abhiram79.flowtune.compose.ui.components.themed
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -8,8 +8,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.models.Album
-import com.abhiram79.flowtune.utils.semiBold
+import com.abhiram79.flowtune.compose.models.Album
+import com.abhiram79.flowtune.compose.utils.semiBold
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.providers.innertube.Innertube
 

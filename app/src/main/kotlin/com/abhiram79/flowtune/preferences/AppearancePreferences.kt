@@ -1,8 +1,8 @@
-package com.abhiram79.flowtune.preferences
+package com.abhiram79.flowtune.compose.preferences
 
-import com.abhiram79.flowtune.GlobalPreferencesHolder
-import com.abhiram79.flowtune.preferences.OldPreferences.ColorPaletteMode
-import com.abhiram79.flowtune.preferences.OldPreferences.ColorPaletteName
+import com.abhiram79.flowtune.compose.GlobalPreferencesHolder
+import com.abhiram79.flowtune.compose.preferences.OldPreferences.ColorPaletteMode
+import com.abhiram79.flowtune.compose.preferences.OldPreferences.ColorPaletteName
 import app.vitune.core.ui.BuiltInFontFamily
 import app.vitune.core.ui.ColorMode
 import app.vitune.core.ui.ColorSource

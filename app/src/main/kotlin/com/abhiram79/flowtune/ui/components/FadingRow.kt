@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components
+package com.abhiram79.flowtune.compose.ui.components
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.horizontalScroll
@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.abhiram79.flowtune.ui.modifiers.horizontalFadingEdge
+import com.abhiram79.flowtune.compose.ui.modifiers.horizontalFadingEdge
 
 @Composable
 inline fun FadingRow(

@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.components.themed
+package com.abhiram79.flowtune.compose.ui.components.themed
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -26,8 +26,8 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.utils.medium
-import com.abhiram79.flowtune.utils.secondary
+import com.abhiram79.flowtune.compose.utils.medium
+import com.abhiram79.flowtune.compose.utils.secondary
 import app.vitune.core.ui.LocalAppearance
 
 @Composable

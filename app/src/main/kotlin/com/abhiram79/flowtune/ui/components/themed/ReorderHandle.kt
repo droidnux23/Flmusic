@@ -1,12 +1,12 @@
-package com.abhiram79.flowtune.ui.components.themed
+package com.abhiram79.flowtune.compose.ui.components.themed
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.R
-import app.vitune.compose.reordering.ReorderingState
-import app.vitune.compose.reordering.reorder
+import com.abhiram79.flowtune.compose.R
+import com.abhiram79.flowtune.compose.reordering.ReorderingState
+import com.abhiram79.flowtune.compose.reordering.reorder
 import app.vitune.core.ui.LocalAppearance
 
 @Composable

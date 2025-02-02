@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.ui.screens.home
+package com.abhiram79.flowtune.compose.ui.screens.home
 
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.animateFloatAsState
@@ -26,17 +26,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.LocalPlayerAwareWindowInsets
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.models.Artist
-import com.abhiram79.flowtune.preferences.OrderPreferences
-import com.abhiram79.flowtune.ui.components.themed.FloatingActionsContainerWithScrollToTop
-import com.abhiram79.flowtune.ui.components.themed.Header
-import com.abhiram79.flowtune.ui.components.themed.HeaderIconButton
-import com.abhiram79.flowtune.ui.items.ArtistItem
-import com.abhiram79.flowtune.ui.screens.Route
-import app.vitune.compose.persist.persistList
+import com.abhiram79.flowtune.compose.Database
+import com.abhiram79.flowtune.compose.LocalPlayerAwareWindowInsets
+import com.abhiram79.flowtune.compose.R
+import com.abhiram79.flowtune.compose.models.Artist
+import com.abhiram79.flowtune.compose.preferences.OrderPreferences
+import com.abhiram79.flowtune.compose.ui.components.themed.FloatingActionsContainerWithScrollToTop
+import com.abhiram79.flowtune.compose.ui.components.themed.Header
+import com.abhiram79.flowtune.compose.ui.components.themed.HeaderIconButton
+import com.abhiram79.flowtune.compose.ui.items.ArtistItem
+import com.abhiram79.flowtune.compose.ui.screens.Route
+import com.abhiram79.flowtune.compose.persist.persistList
 import app.vitune.core.data.enums.ArtistSortBy
 import app.vitune.core.data.enums.SortOrder
 import app.vitune.core.ui.Dimensions

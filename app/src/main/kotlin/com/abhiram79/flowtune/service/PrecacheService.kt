@@ -1,4 +1,4 @@
-package com.abhiram79.flowtune.service
+package com.abhiram79.flowtune.compose.service
 
 import android.content.ComponentName
 import android.content.Context
@@ -19,13 +19,13 @@ import androidx.media3.exoplayer.offline.DownloadRequest
 import androidx.media3.exoplayer.offline.DownloadService
 import androidx.media3.exoplayer.scheduler.Requirements
 import androidx.media3.exoplayer.workmanager.WorkManagerScheduler
-import com.abhiram79.flowtune.Database
-import com.abhiram79.flowtune.R
-import com.abhiram79.flowtune.transaction
-import com.abhiram79.flowtune.utils.ActionReceiver
-import com.abhiram79.flowtune.utils.download
-import com.abhiram79.flowtune.utils.intent
-import com.abhiram79.flowtune.utils.toast
+import com.abhiram79.flowtune.compose.Database
+import com.abhiram79.flowtune.compose.R
+import com.abhiram79.flowtune.compose.transaction
+import com.abhiram79.flowtune.compose.utils.ActionReceiver
+import com.abhiram79.flowtune.compose.utils.download
+import com.abhiram79.flowtune.compose.utils.intent
+import com.abhiram79.flowtune.compose.utils.toast
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
@@ -103,7 +103,7 @@ class PrecacheService : DownloadService(
         }
     }
 
-    inner class NotificationActionReceiver : ActionReceiver("com.abhiram79.flowtune.precache") {
+    inner class NotificationActionReceiver : ActionReceiver("com.abhiram79.flowtune.compose.precache") {
         val cancel by action { context, _ ->
             runCatching {
                 sendPauseDownloads(

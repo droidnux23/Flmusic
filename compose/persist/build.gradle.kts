@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "app.vitune.compose.persist"
+    namespace = "com.abhiram79.flowtune.compose.persist"
     compileSdk = 35
 
     defaultConfig {

@@ -5,7 +5,7 @@ import androidx.compose.runtime.DisposableEffect
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import app.vitune.compose.persist.findActivityNullable
+import com.abhiram79.flowtune.compose.persist.findActivityNullable
 
 @Composable
 fun FullScreenState(

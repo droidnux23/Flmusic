@@ -52,7 +52,7 @@ import com.abhiram79.flowtune.utils.color
 import com.abhiram79.flowtune.utils.logcat
 import com.abhiram79.flowtune.utils.semiBold
 import com.abhiram79.flowtune.utils.smoothScrollToTop
-import app.vitune.compose.routing.RouteHandler
+import com.abhiram79.flowtune.compose.routing.RouteHandler
 import app.vitune.core.ui.LocalAppearance
 import app.vitune.core.ui.surface
 import app.vitune.core.ui.utils.ActivityIntentBundleAccessor
